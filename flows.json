@@ -200,7 +200,7 @@
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
-        "topic": "",
+        "topic": "teste",
         "x": 230,
         "y": 320,
         "wires": [
