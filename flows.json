@@ -24,6 +24,14 @@
         "env": []
     },
     {
+        "id": "50011ede608d5a87",
+        "type": "tab",
+        "label": "Dashboard view",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "5751272d90bb3105",
         "type": "ui-base",
         "name": "My Dashboard",
@@ -184,6 +192,89 @@
         "willMsg": {},
         "userProps": "",
         "sessionExpiry": ""
+    },
+    {
+        "id": "3b56bf0532022fe5",
+        "type": "ui-theme",
+        "name": "Theme 2",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "8c01ed98cb39b119",
+        "type": "ui-page",
+        "name": "Page 1",
+        "ui": "5751272d90bb3105",
+        "path": "/page1",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "03ae808964d91e13",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "3f47c4c8b7088d60",
+        "type": "ui-group",
+        "name": "Group 1",
+        "page": "8c01ed98cb39b119",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "teste",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "b390a23c8ea33ef9",
+        "type": "ui-group",
+        "name": "Caixa d'água",
+        "page": "8c01ed98cb39b119",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
     },
     {
         "id": "dfa7c066f875405a",
@@ -592,5 +683,146 @@
                 "7b24ac7eb4b64f94"
             ]
         ]
+    },
+    {
+        "id": "96e05385588f1630",
+        "type": "ui-button",
+        "z": "a7769f71b1a40557",
+        "group": "3f47c4c8b7088d60",
+        "name": "Ligar LED",
+        "label": "Ligar LED",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "ON",
+        "payloadType": "str",
+        "topic": "teste/lampada",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 540,
+        "y": 360,
+        "wires": [
+            [
+                "7b24ac7eb4b64f94"
+            ]
+        ]
+    },
+    {
+        "id": "c884c218c767be37",
+        "type": "ui-button",
+        "z": "a7769f71b1a40557",
+        "group": "3f47c4c8b7088d60",
+        "name": "Desligar LED",
+        "label": "Desligar LED",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "OFF",
+        "payloadType": "str",
+        "topic": "teste/lampada",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 550,
+        "y": 420,
+        "wires": [
+            [
+                "7b24ac7eb4b64f94"
+            ]
+        ]
+    },
+    {
+        "id": "8aa259957b0e7f3b",
+        "type": "mqtt in",
+        "z": "a7769f71b1a40557",
+        "name": "",
+        "topic": "teste/agua",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "2509275d52fb7e77",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 520,
+        "y": 720,
+        "wires": [
+            [
+                "6a1c66edd88e77f7"
+            ]
+        ]
+    },
+    {
+        "id": "6a1c66edd88e77f7",
+        "type": "ui-gauge",
+        "z": "a7769f71b1a40557",
+        "name": "Caixa d'água",
+        "group": "b390a23c8ea33ef9",
+        "order": 0,
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "133",
+                "color": "#ffc800"
+            },
+            {
+                "from": "266",
+                "color": "#ea5353"
+            }
+        ],
+        "min": "0",
+        "max": "400",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 710,
+        "y": 760,
+        "wires": []
     }
 ]
