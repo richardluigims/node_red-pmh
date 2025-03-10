@@ -1,21 +1,5 @@
 [
     {
-        "id": "dbb4f9e4ee9b2ef6",
-        "type": "tab",
-        "label": "Fluxo 3",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "e828c8bfebf1d573",
-        "type": "tab",
-        "label": "Fluxo 2",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "a7769f71b1a40557",
         "type": "tab",
         "label": "Fluxo 4",
@@ -24,12 +8,32 @@
         "env": []
     },
     {
-        "id": "50011ede608d5a87",
-        "type": "tab",
-        "label": "Dashboard view",
-        "disabled": false,
-        "info": "",
-        "env": []
+        "id": "d94ecd6325fc9213",
+        "type": "group",
+        "z": "a7769f71b1a40557",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "7b24ac7eb4b64f94",
+            "12cb8b2c4921e971",
+            "602d5a35dd3474c6",
+            "a39db64e9c59894a",
+            "aa300252cb509534",
+            "afb73b6ea43670cf",
+            "a225250ab99af8bc",
+            "5d46259fbfb20d69"
+        ],
+        "x": 14,
+        "y": 19,
+        "w": 832,
+        "h": 342
     },
     {
         "id": "5751272d90bb3105",
@@ -43,6 +47,7 @@
             "ui-control"
         ],
         "showPathInSidebar": false,
+        "showPageTitle": true,
         "navigationStyle": "default",
         "titleBarStyle": "default",
         "showReconnectNotification": true,
@@ -212,12 +217,240 @@
         }
     },
     {
-        "id": "8c01ed98cb39b119",
+        "id": "8b1639e48ee324dc",
+        "type": "ui-theme",
+        "name": "Padrão",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#ff0000",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#000000"
+        },
+        "sizes": {
+            "pagePadding": "100px",
+            "groupGap": "0px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "102px",
+            "density": "default"
+        }
+    },
+    {
+        "id": "e55366851337b3a7",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "f02cc86b66a52a5d",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#000000"
+        },
+        "sizes": {
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "d198025329072956",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "6a479db830e2c47f",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "c4cf8ba0271a3aa1",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#000000"
+        },
+        "sizes": {
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "d63678fab116900c",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "e436876eafc66695",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#000000"
+        },
+        "sizes": {
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "e6eb288a2812d19d",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "d78345db1d69c9a5",
         "type": "ui-page",
-        "name": "Page 1",
+        "name": "Controle Iluminação",
         "ui": "5751272d90bb3105",
-        "path": "/page1",
-        "icon": "home",
+        "path": "",
+        "icon": "lightbulb ",
         "layout": "grid",
         "theme": "03ae808964d91e13",
         "breakpoints": [
@@ -245,367 +478,115 @@
         "order": 1,
         "className": "",
         "visible": "true",
-        "disabled": "false"
-    },
-    {
-        "id": "3f47c4c8b7088d60",
-        "type": "ui-group",
-        "name": "Group 1",
-        "page": "8c01ed98cb39b119",
-        "width": 6,
-        "height": 1,
-        "order": 2,
-        "showTitle": true,
-        "className": "teste",
-        "visible": "true",
         "disabled": "false",
-        "groupType": "default"
+        "info": "<style>\r\n    .nrdb-ui-group.acad .v-card {\r\n        background-color: #e88113db !important;\r\n        /* Azul escuro USCS */\r\n        border-radius: 16px !important;\r\n        border: 2px solid #00509E;\r\n        /* Borda azul intermediária */\r\n        color: #ffffff;\r\n        /* Texto branco para contraste */\r\n        margin: 45px;\r\n        /* Espaço ao redor do card */\r\n        padding: 15px;\r\n        /* Mais espaço interno */\r\n        width: 300px;\r\n        /* Mantém a largura */\r\n        height: 275px;\r\n        /* Mantém a altura */\r\n        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);\r\n        /* Sombra suave */\r\n        display: flex;\r\n        flex-direction: column;\r\n        align-items: center;\r\n        justify-content: center;\r\n    }\r\n\r\n    .nrdb-ui-group.acad .v-card-title {\r\n        font-size: 18px;\r\n        font-weight: bold;\r\n        color: #FFD700;\r\n        /* Amarelo dourado para destaque */\r\n        text-transform: uppercase;\r\n        /* Texto em caixa alta */\r\n        text-align: center;\r\n        margin-bottom: 5px;\r\n        /* Espaço entre o título e os botões */\r\n        font-family: \"Arial\", sans-serif;\r\n    }\r\n\r\n\r\n    .nrdb-ui-group.acad .v-btn:hover {\r\n        background-color: #FFD700;\r\n        /* Amarelo dourado ao passar o mouse */\r\n        color: #003366;\r\n        /* Azul escuro no texto */\r\n    }\r\n</style>"
     },
     {
-        "id": "b390a23c8ea33ef9",
+        "id": "bffff57babab2d4e",
         "type": "ui-group",
-        "name": "Caixa d'água",
-        "page": "8c01ed98cb39b119",
+        "name": "Academia",
+        "page": "d78345db1d69c9a5",
         "width": 6,
         "height": 1,
         "order": 1,
         "showTitle": true,
+        "className": "acad",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default",
+        "info": "`<style>\r\n    .nrdb-ui-group.acad .v-card {\r\n        background-color: #e88113db !important;\r\n        /* Azul escuro USCS */\r\n        border-radius: 16px !important;\r\n        border: 2px solid #00509E;\r\n        /* Borda azul intermediária */\r\n        color: #ffffff;\r\n        /* Texto branco para contraste */\r\n        margin: 45px;\r\n        /* Espaço ao redor do card *`/\r\n        padding: 15px;\r\n        /* Mais espaço interno */\r\n        width: 300px;\r\n        /* Mantém a largura */\r\n        height: 275px;\r\n        /* Mantém a altura */\r\n        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);\r\n        /* Sombra suave */\r\n        display: flex;\r\n        flex-direction: column;\r\n        align-items: center;\r\n        justify-content: center;\r\n    }\r\n\r\n    .nrdb-ui-group.acad .v-card-title {\r\n        font-size: 18px;\r\n        font-weight: bold;\r\n        color: #FFD700;\r\n        /* Amarelo dourado para destaque */\r\n        text-transform: uppercase;\r\n        /* Texto em caixa alta */\r\n        text-align: center;\r\n        margin-bottom: 5px;\r\n        /* Espaço entre o título e os botões */\r\n        font-family: \"Arial\", sans-serif;\r\n    }\r\n\r\n\r\n    .nrdb-ui-group.acad .v-btn:hover {\r\n        background-color: #FFD700;\r\n        /* Amarelo dourado ao passar o mouse */\r\n        color: #003366;\r\n        /* Azul escuro no texto */\r\n    }\r\n</style>`"
+    },
+    {
+        "id": "e8b5a577d2fd58b5",
+        "type": "ui-page",
+        "name": "Vazamento de gás",
+        "ui": "5751272d90bb3105",
+        "path": "/page2",
+        "icon": "fire",
+        "layout": "grid",
+        "theme": "03ae808964d91e13",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
         "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "fc11128e60fca395",
+        "type": "ui-page",
+        "name": "Controle Caixas d'água",
+        "ui": "5751272d90bb3105",
+        "path": "/page3",
+        "icon": "water",
+        "layout": "grid",
+        "theme": "03ae808964d91e13",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 3,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "5936cb40dabd2561",
+        "type": "ui-group",
+        "name": "Caixa d\"água 1",
+        "page": "fc11128e60fca395",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "caixa",
         "visible": "true",
         "disabled": "false",
         "groupType": "default"
-    },
-    {
-        "id": "dfa7c066f875405a",
-        "type": "inject",
-        "z": "dbb4f9e4ee9b2ef6",
-        "name": "",
-        "props": [
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "teste",
-        "x": 230,
-        "y": 320,
-        "wires": [
-            [
-                "0b898c42daecafcc"
-            ]
-        ]
-    },
-    {
-        "id": "0b898c42daecafcc",
-        "type": "http request",
-        "z": "dbb4f9e4ee9b2ef6",
-        "name": "",
-        "method": "GET",
-        "ret": "txt",
-        "paytoqs": "ignore",
-        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.csv",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 440,
-        "y": 320,
-        "wires": [
-            [
-                "e0acc7be6af177b9"
-            ]
-        ]
-    },
-    {
-        "id": "e0acc7be6af177b9",
-        "type": "csv",
-        "z": "dbb4f9e4ee9b2ef6",
-        "name": "",
-        "spec": "rfc",
-        "sep": ",",
-        "hdrin": true,
-        "hdrout": "none",
-        "multi": "one",
-        "ret": "\\r\\n",
-        "temp": "",
-        "skip": "0",
-        "strings": true,
-        "include_empty_strings": "",
-        "include_null_values": "",
-        "x": 610,
-        "y": 320,
-        "wires": [
-            [
-                "c2bd553260939406",
-                "b7f588abe87a1db3"
-            ]
-        ]
-    },
-    {
-        "id": "c2bd553260939406",
-        "type": "debug",
-        "z": "dbb4f9e4ee9b2ef6",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 780,
-        "y": 320,
-        "wires": []
-    },
-    {
-        "id": "b7f588abe87a1db3",
-        "type": "switch",
-        "z": "dbb4f9e4ee9b2ef6",
-        "name": "",
-        "property": "payload.mag",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "gte",
-                "v": "7",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 650,
-        "y": 440,
-        "wires": [
-            [
-                "577b4737b68e7117"
-            ]
-        ]
-    },
-    {
-        "id": "577b4737b68e7117",
-        "type": "change",
-        "z": "dbb4f9e4ee9b2ef6",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "PANIC!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 750,
-        "y": 540,
-        "wires": [
-            [
-                "5cb8cec290b3906c"
-            ]
-        ]
-    },
-    {
-        "id": "5cb8cec290b3906c",
-        "type": "debug",
-        "z": "dbb4f9e4ee9b2ef6",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 940,
-        "y": 440,
-        "wires": []
-    },
-    {
-        "id": "e36406f2.8ef798",
-        "type": "inject",
-        "z": "e828c8bfebf1d573",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": "",
-        "topic": "",
-        "payload": "",
-        "payloadType": "str",
-        "x": 90,
-        "y": 380,
-        "wires": [
-            [
-                "c3c50023.3bbed"
-            ]
-        ]
-    },
-    {
-        "id": "c3c50023.3bbed",
-        "type": "http request",
-        "z": "e828c8bfebf1d573",
-        "name": "Recent Quakes",
-        "method": "GET",
-        "paytoqs": "ignore",
-        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.csv",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 270,
-        "y": 380,
-        "wires": [
-            [
-                "8afc6cac.e0812"
-            ]
-        ]
-    },
-    {
-        "id": "8afc6cac.e0812",
-        "type": "csv",
-        "z": "e828c8bfebf1d573",
-        "name": "",
-        "sep": ",",
-        "hdrin": true,
-        "hdrout": "",
-        "multi": "one",
-        "ret": "\\n",
-        "temp": "",
-        "x": 440,
-        "y": 380,
-        "wires": [
-            [
-                "44779781.4190f8",
-                "6f0eb546.9e208c"
-            ]
-        ]
-    },
-    {
-        "id": "44779781.4190f8",
-        "type": "debug",
-        "z": "e828c8bfebf1d573",
-        "name": "",
-        "active": true,
-        "complete": false,
-        "x": 600,
-        "y": 380,
-        "wires": []
-    },
-    {
-        "id": "6f0eb546.9e208c",
-        "type": "switch",
-        "z": "e828c8bfebf1d573",
-        "name": "",
-        "property": "payload.mag",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "gte",
-                "v": "7",
-                "vt": "num"
-            }
-        ],
-        "checkall": "true",
-        "outputs": 1,
-        "x": 480,
-        "y": 440,
-        "wires": [
-            [
-                "d78d4aa8.8c8208"
-            ]
-        ]
-    },
-    {
-        "id": "d78d4aa8.8c8208",
-        "type": "change",
-        "z": "e828c8bfebf1d573",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "payload",
-                "pt": "msg",
-                "to": "PANIC!",
-                "tot": "str"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 620,
-        "y": 500,
-        "wires": [
-            [
-                "72fddece.fac0d"
-            ]
-        ]
-    },
-    {
-        "id": "72fddece.fac0d",
-        "type": "debug",
-        "z": "e828c8bfebf1d573",
-        "name": "",
-        "active": true,
-        "complete": false,
-        "x": 720,
-        "y": 440,
-        "wires": []
-    },
-    {
-        "id": "be294081b2f24d84",
-        "type": "inject",
-        "z": "a7769f71b1a40557",
-        "name": "Ligar",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "ON",
-        "payloadType": "str",
-        "x": 530,
-        "y": 200,
-        "wires": [
-            [
-                "7b24ac7eb4b64f94"
-            ]
-        ]
     },
     {
         "id": "7b24ac7eb4b64f94",
         "type": "mqtt out",
         "z": "a7769f71b1a40557",
+        "g": "d94ecd6325fc9213",
         "name": "Lights",
         "topic": "teste/lampada",
         "qos": "",
@@ -616,8 +597,8 @@
         "correl": "",
         "expiry": "",
         "broker": "2509275d52fb7e77",
-        "x": 710,
-        "y": 280,
+        "x": 770,
+        "y": 100,
         "wires": []
     },
     {
@@ -633,7 +614,7 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 490,
+        "x": 450,
         "y": 520,
         "wires": [
             [
@@ -654,112 +635,9 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 640,
+        "x": 600,
         "y": 600,
         "wires": []
-    },
-    {
-        "id": "9c0804567deffb98",
-        "type": "inject",
-        "z": "a7769f71b1a40557",
-        "name": "Desligar",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "OFF",
-        "payloadType": "str",
-        "x": 520,
-        "y": 280,
-        "wires": [
-            [
-                "7b24ac7eb4b64f94"
-            ]
-        ]
-    },
-    {
-        "id": "96e05385588f1630",
-        "type": "ui-button",
-        "z": "a7769f71b1a40557",
-        "group": "3f47c4c8b7088d60",
-        "name": "Ligar LED",
-        "label": "Ligar LED",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "emulateClick": false,
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "iconPosition": "left",
-        "payload": "ON",
-        "payloadType": "str",
-        "topic": "teste/lampada",
-        "topicType": "msg",
-        "buttonColor": "",
-        "textColor": "",
-        "iconColor": "",
-        "enableClick": true,
-        "enablePointerdown": false,
-        "pointerdownPayload": "",
-        "pointerdownPayloadType": "str",
-        "enablePointerup": false,
-        "pointerupPayload": "",
-        "pointerupPayloadType": "str",
-        "x": 540,
-        "y": 360,
-        "wires": [
-            [
-                "7b24ac7eb4b64f94"
-            ]
-        ]
-    },
-    {
-        "id": "c884c218c767be37",
-        "type": "ui-button",
-        "z": "a7769f71b1a40557",
-        "group": "3f47c4c8b7088d60",
-        "name": "Desligar LED",
-        "label": "Desligar LED",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "emulateClick": false,
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "",
-        "iconPosition": "left",
-        "payload": "OFF",
-        "payloadType": "str",
-        "topic": "teste/lampada",
-        "topicType": "msg",
-        "buttonColor": "",
-        "textColor": "",
-        "iconColor": "",
-        "enableClick": true,
-        "enablePointerdown": false,
-        "pointerdownPayload": "",
-        "pointerdownPayloadType": "str",
-        "enablePointerup": false,
-        "pointerupPayload": "",
-        "pointerupPayloadType": "str",
-        "x": 550,
-        "y": 420,
-        "wires": [
-            [
-                "7b24ac7eb4b64f94"
-            ]
-        ]
     },
     {
         "id": "8aa259957b0e7f3b",
@@ -774,78 +652,225 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 520,
-        "y": 720,
+        "x": 340,
+        "y": 680,
         "wires": [
             [
-                "6a1c66edd88e77f7"
+                "5c0114fe0c35ef65"
             ]
         ]
     },
     {
-        "id": "6a1c66edd88e77f7",
-        "type": "ui-gauge",
+        "id": "12cb8b2c4921e971",
+        "type": "ui-template",
         "z": "a7769f71b1a40557",
-        "name": "Caixa d'água",
-        "group": "b390a23c8ea33ef9",
+        "g": "d94ecd6325fc9213",
+        "group": "",
+        "page": "",
+        "ui": "5751272d90bb3105",
+        "name": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": ".v-main {\n    background-image: url(\"https://upload.wikimedia.org/wikipedia/commons/c/c9/Logo_uscs.png\");\n    background-position: center;\n    background-color: rgba(255, 255, 255, 0.3);\n    background-blend-mode: lighten;\n    background-size: 500px 400px;\n}\n\n/* cuida do menu */\n.v-navigation-drawer {\n    background-color: #e88113db;\n    font-size: larger;\n}\n\n/* cuida da cor do titulo do grupo */\n.v-card-title {\n    color: #100101;\n}\n\n/* cuida da cor do titulo do menu */\n.v-list-item-title {\n    color: #fdfafa !important;\n    font-weight: 500 !important;\n    font-size: 16px !important;\n}\n\n/* cuida da transperencia da barra de titulo */\n.v-app-bar.v-toolbar {\n    background: transparent;\n}\n\n/* cuida da cor do titulo */\n.v-toolbar-title__placeholder {\n    color: #000000;\n}\n\n/* cuida da cor ddo icone de expansao do menu */\n.v-theme--nrdb .v-icon--size-default {\n    color: #000000;\n}",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "site:style",
+        "className": "",
+        "x": 100,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "602d5a35dd3474c6",
+        "type": "ui-template",
+        "z": "a7769f71b1a40557",
+        "g": "d94ecd6325fc9213",
+        "group": "bffff57babab2d4e",
+        "page": "",
+        "ui": "",
+        "name": "Botão 1",
+        "order": 1,
+        "width": 3,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n    <v-btn class=\"button\" ref=\"button\" stacked @click=\"alternar\">\n        <v-icon class=\"icon\" ref=\"icon\">{{ icon }}</v-icon>\n        <div class=\"title\">Luz 1</div>\n    </v-btn>\n</template>\n\n<script>\nexport default {\n    data() {\n        return {\n            value: \"OFF\",\n            icon: \"mdi-lightbulb-outline\"\n        };\n    },\n    methods: {\n        alternar() {\n            this.value === \"ON\" ? this.desligar() : this.ligar();\n        },\n        ligar() {\n            this.icon = \"mdi-lightbulb-on-outline\";\n            this.$refs.icon.$el.style.color = \"#FFD700\"; /* Cor dourada para efeito de lâmpada acesa */\n            this.$refs.icon.$el.style.textShadow = \"0px 0px 15px #FFD700\"; /* Brilho ao redor */\n            \n            if (this.value === \"OFF\") {\n                this.send({ payload: \"ON\" });\n                this.value = \"ON\";\n            }\n        },\n        desligar() {\n            this.icon = \"mdi-lightbulb-outline\";\n            this.$refs.icon.$el.style.color = \"#A9A9A9\"; /* Cor acinzentada para efeito apagado */\n            this.$refs.icon.$el.style.textShadow = \"none\";\n            \n            if (this.value === \"ON\") {\n                this.send({ payload: \"OFF\" });\n                this.value = \"OFF\";\n            }\n        }\n    },\n    watch: {\n        msg() {\n            if (this.msg?.payload) {\n                console.log(\"Mensagem recebida:\", this.msg);\n                this.msg.payload === \"ON\" ? this.ligar() : this.desligar();\n            }\n        }\n    }\n};\n</script>\n\n<style>\n.button {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    width: 120px; \n    height: 140px; /* 🔥 Aumentado para mais espaço interno */\n    background-color: #2C2C2C;\n    color: white;\n    border: none;\n    border-radius: 16px;\n    transition: all 0.3s ease-in-out;\n    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);\n    margin-top: 0px;\n}\n\n.title {\n    font-size: 14px;\n    font-weight: bold;\n    margin-top: 8px; /* 🔥 Maior espaço entre o ícone e o texto */\n}\n\n.icon {\n    font-size: 45px; /* 🔥 Ícone um pouco maior para equilíbrio */\n    margin-top: 5px; /* 🔥 Maior distância do topo */\n    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;\n}\n</style>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 460,
+        "y": 200,
+        "wires": [
+            [
+                "a39db64e9c59894a",
+                "7b24ac7eb4b64f94"
+            ]
+        ]
+    },
+    {
+        "id": "a39db64e9c59894a",
+        "type": "debug",
+        "z": "a7769f71b1a40557",
+        "g": "d94ecd6325fc9213",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 650,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "aa300252cb509534",
+        "type": "ui-template",
+        "z": "a7769f71b1a40557",
+        "g": "d94ecd6325fc9213",
+        "group": "bffff57babab2d4e",
+        "page": "",
+        "ui": "",
+        "name": "Botão 2",
         "order": 2,
         "width": 3,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n    <v-btn class=\"button\" ref=\"button\" stacked @click=\"alternar\">\n        <v-icon class=\"icon\" ref=\"icon\">{{ icon }}</v-icon>\n        <div class=\"title\">Luz 2</div>\n    </v-btn>\n</template>\n\n<script>\n    export default {\n    data() {\n        return {\n            value: \"OFF\",\n            icon: \"mdi-lightbulb-outline\"\n        };\n    },\n    methods: {\n        alternar() {\n            this.value === \"ON\" ? this.desligar() : this.ligar();\n        },\n        ligar() {\n            this.icon = \"mdi-lightbulb-on-outline\";\n            this.$refs.icon.$el.style.color = \"#FFD700\"; /* Cor dourada para efeito de lâmpada acesa */\n            this.$refs.icon.$el.style.textShadow = \"0px 0px 15px #FFD700\"; /* Brilho ao redor */\n            \n            if (this.value === \"OFF\") {\n                this.send({ payload: \"ON\" });\n                this.value = \"ON\";\n            }\n        },\n        desligar() {\n            this.icon = \"mdi-lightbulb-outline\";\n            this.$refs.icon.$el.style.color = \"#A9A9A9\"; /* Cor acinzentada para efeito apagado */\n            this.$refs.icon.$el.style.textShadow = \"none\";\n            \n            if (this.value === \"ON\") {\n                this.send({ payload: \"OFF\" });\n                this.value = \"OFF\";\n            }\n        }\n    },\n    watch: {\n        msg() {\n            if (this.msg?.payload) {\n                console.log(\"Mensagem recebida:\", this.msg);\n                this.msg.payload === \"ON\" ? this.ligar() : this.desligar();\n            }\n        }\n    }\n};\n</script>\n\n<style>\n    .button {\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n        width: 120px;\n        height: 140px;\n        /* 🔥 Aumentado para mais espaço interno */\n        background-color: #2C2C2C;\n        color: white;\n        border: none;\n        border-radius: 16px;\n        transition: all 0.3s ease-in-out;\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);\n    }\n\n    .button:hover {\n        background-color: #3A3A3A;\n        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);\n    }\n\n    .title {\n        font-size: 14px;\n        font-weight: bold;\n        margin-top: 8px;\n        /* 🔥 Maior espaço entre o ícone e o texto */\n    }\n\n    .icon {\n        font-size: 45px;\n        /* 🔥 Ícone um pouco maior para equilíbrio */\n        margin-top: 5px;\n        /* 🔥 Maior distância do topo */\n        transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;\n    }\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 460,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "afb73b6ea43670cf",
+        "type": "ui-template",
+        "z": "a7769f71b1a40557",
+        "g": "d94ecd6325fc9213",
+        "group": "bffff57babab2d4e",
+        "page": "",
+        "ui": "",
+        "name": "Botão 3",
+        "order": 3,
+        "width": 3,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n    <v-btn class=\"button\" ref=\"button\" stacked @click=\"alternar\">\n        <v-icon class=\"icon\" ref=\"icon\">{{ icon }}</v-icon>\n        <div class=\"title\">Luz 3</div>\n    </v-btn>\n</template>\n\n<script>\n    export default {\n    data() {\n        return {\n            value: \"OFF\",\n            icon: \"mdi-lightbulb-outline\"\n        };\n    },\n    methods: {\n        alternar() {\n            this.value === \"ON\" ? this.desligar() : this.ligar();\n        },\n        ligar() {\n            this.icon = \"mdi-lightbulb-on-outline\";\n            this.$refs.icon.$el.style.color = \"#FFD700\"; /* Cor dourada para efeito de lâmpada acesa */\n            this.$refs.icon.$el.style.textShadow = \"0px 0px 15px #FFD700\"; /* Brilho ao redor */\n            \n            if (this.value === \"OFF\") {\n                this.send({ payload: \"ON\" });\n                this.value = \"ON\";\n            }\n        },\n        desligar() {\n            this.icon = \"mdi-lightbulb-outline\";\n            this.$refs.icon.$el.style.color = \"#A9A9A9\"; /* Cor acinzentada para efeito apagado */\n            this.$refs.icon.$el.style.textShadow = \"none\";\n            \n            if (this.value === \"ON\") {\n                this.send({ payload: \"OFF\" });\n                this.value = \"OFF\";\n            }\n        }\n    },\n    watch: {\n        msg() {\n            if (this.msg?.payload) {\n                console.log(\"Mensagem recebida:\", this.msg);\n                this.msg.payload === \"ON\" ? this.ligar() : this.desligar();\n            }\n        }\n    }\n};\n</script>\n\n<style>\n    .button {\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n        width: 120px;\n        height: 140px;\n        /* 🔥 Aumentado para mais espaço interno */\n        background-color: #2C2C2C;\n        color: white;\n        border: none;\n        border-radius: 16px;\n        transition: all 0.3s ease-in-out;\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);\n    }\n\n    .button:hover {\n        background-color: #3A3A3A;\n        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);\n    }\n\n    .title {\n        font-size: 14px;\n        font-weight: bold;\n        margin-top: 8px;\n        /* 🔥 Maior espaço entre o ícone e o texto */\n    }\n\n    .icon {\n        font-size: 45px;\n        /* 🔥 Ícone um pouco maior para equilíbrio */\n        margin-top: 5px;\n        /* 🔥 Maior distância do topo */\n        transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;\n    }\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 460,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a225250ab99af8bc",
+        "type": "ui-template",
+        "z": "a7769f71b1a40557",
+        "g": "d94ecd6325fc9213",
+        "group": "bffff57babab2d4e",
+        "page": "",
+        "ui": "",
+        "name": "Botão 4",
+        "order": 4,
+        "width": 3,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n    <v-btn class=\"button\" ref=\"button\" stacked @click=\"alternar\">\n        <v-icon class=\"icon\" ref=\"icon\">{{ icon }}</v-icon>\n        <div class=\"title\">Luz 4</div>\n    </v-btn>\n</template>\n\n<script>\n    export default {\n    data() {\n        return {\n            value: \"OFF\",\n            icon: \"mdi-lightbulb-outline\"\n        };\n    },\n    methods: {\n        alternar() {\n            this.value === \"ON\" ? this.desligar() : this.ligar();\n        },\n        ligar() {\n            this.icon = \"mdi-lightbulb-on-outline\";\n            this.$refs.icon.$el.style.color = \"#FFD700\"; /* Cor dourada para efeito de lâmpada acesa */\n            this.$refs.icon.$el.style.textShadow = \"0px 0px 15px #FFD700\"; /* Brilho ao redor */\n            \n            if (this.value === \"OFF\") {\n                this.send({ payload: \"ON\" });\n                this.value = \"ON\";\n            }\n        },\n        desligar() {\n            this.icon = \"mdi-lightbulb-outline\";\n            this.$refs.icon.$el.style.color = \"#A9A9A9\"; /* Cor acinzentada para efeito apagado */\n            this.$refs.icon.$el.style.textShadow = \"none\";\n            \n            if (this.value === \"ON\") {\n                this.send({ payload: \"OFF\" });\n                this.value = \"OFF\";\n            }\n        }\n    },\n    watch: {\n        msg() {\n            if (this.msg?.payload) {\n                console.log(\"Mensagem recebida:\", this.msg);\n                this.msg.payload === \"ON\" ? this.ligar() : this.desligar();\n            }\n        }\n    }\n};\n</script>\n\n<style>\n    .button {\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n        width: 120px;\n        height: 140px;\n        /* 🔥 Aumentado para mais espaço interno */\n        background-color: #2C2C2C;\n        color: white;\n        border: none;\n        border-radius: 16px;\n        transition: all 0.3s ease-in-out;\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);\n    }\n\n    .button:hover {\n        background-color: #3A3A3A;\n        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);\n    }\n\n    .title {\n        font-size: 14px;\n        font-weight: bold;\n        margin-top: 8px;\n        /* 🔥 Maior espaço entre o ícone e o texto */\n    }\n\n    .icon {\n        font-size: 45px;\n        /* 🔥 Ícone um pouco maior para equilíbrio */\n        margin-top: 5px;\n        /* 🔥 Maior distância do topo */\n        transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;\n    }\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 460,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5d46259fbfb20d69",
+        "type": "ui-template",
+        "z": "a7769f71b1a40557",
+        "g": "d94ecd6325fc9213",
+        "group": "",
+        "page": "d78345db1d69c9a5",
+        "ui": "",
+        "name": "Grupo Academia",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<style>\n    .nrdb-ui-group.acad .v-card {\n        background-color: #fdfafa !important;\n        /* Azul escuro USCS */\n        border-radius: 16px !important;\n        border: 2px solid #00509E;\n        /* Borda azul intermediária */\n        color: #ffffff;\n        /* Texto branco para contraste */\n        margin: 45px;\n        /* Espaço ao redor do card */\n        padding: 15px;\n        /* Mais espaço interno */\n        width: 300px;\n        /* Mantém a largura */\n        height: 275px;\n        /* Mantém a altura */\n        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);\n        /* Sombra suave */\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n    }\n\n    .nrdb-ui-group.acad .v-card-title {\n        font-size: 18px;\n        font-weight: bold;\n        color: #000000;\n        /* Amarelo dourado para destaque */\n        text-transform: uppercase;\n        /* Texto em caixa alta */\n        text-align: center;\n        margin-bottom: 5px;\n        /* Espaço entre o título e os botões */\n        font-family: \"Arial\", sans-serif;\n    }\n\n\n    .nrdb-ui-group.acad .v-btn:hover {\n        background-color: #FFD700;\n        /* Amarelo dourado ao passar o mouse */\n        color: #003366;\n        /* Azul escuro no texto */\n    }\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "widget:page",
+        "className": "",
+        "x": 310,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5c0114fe0c35ef65",
+        "type": "ui-gauge",
+        "z": "a7769f71b1a40557",
+        "name": "",
+        "group": "5936cb40dabd2561",
+        "order": 1,
+        "width": 3,
         "height": 3,
-        "gtype": "gauge-half",
+        "gtype": "gauge-tank",
         "gstyle": "needle",
-        "title": "",
-        "units": "units",
+        "title": "Nível de água",
+        "units": "Litros",
         "icon": "",
         "prefix": "",
         "suffix": "",
         "segments": [
             {
-                "from": "0",
+                "from": "133",
                 "color": "#5cd65c"
             },
             {
-                "from": "133",
+                "from": "266",
                 "color": "#ffc800"
             },
             {
-                "from": "266",
+                "from": "400",
                 "color": "#ea5353"
             }
         ],
-        "min": "0",
-        "max": "400",
+        "min": "400",
+        "max": "0",
         "sizeThickness": 16,
         "sizeGap": 4,
         "sizeKeyThickness": 8,
         "styleRounded": true,
         "styleGlow": false,
         "className": "",
-        "x": 710,
+        "x": 620,
         "y": 760,
         "wires": []
-    },
-    {
-        "id": "551e5ea9ab165597",
-        "type": "ui-template",
-        "z": "a7769f71b1a40557",
-        "group": "b390a23c8ea33ef9",
-        "page": "",
-        "ui": "",
-        "name": "Atualização",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "head": "",
-        "format": "<template>\n    <div>\n        <h2>Counter</h2>\n        <!-- Conditional Styling using Attribute Binding (\":\") -->\n        <!-- and rendering content inside <tags></tags> with {{ }} -->\n        <p :style=\"{'color' : (count > 5 ? 'red' : 'green' )}\">Current Count: {{ count }}</p>\n        <!-- Computed Rendering using Vue Computed Variables -->\n        <p class=\"my-class\">Formatted Count: {{ formattedCount }}</p>\n        <!-- Conditional Rendering with \"v-if\" -->\n        <b v-if=\"count > 5\">Too many!</b>\n        <v-btn @click=\"increase()\">Increment</v-btn>\n    </div>\n</template>\n\n<script>\n    export default {\n        data() {\n            // define variables available component-wide\n            // (in <template> and component functions)\n            return {\n                count: 0\n            }\n        },\n        watch: {\n            // watch for any changes of \"count\"\n            count: function () {\n                if (this.count % 5 === 0) {\n                    this.send({payload: 'Multiple of 5'})\n                }\n            }\n        },\n        computed: {\n            // automatically compute this variable\n            // whenever VueJS deems appropriate\n            formattedCount: function () {\n                return this.count + ' Apples'\n            }\n        },\n        methods: {\n            // expose a method to our <template> and Vue Application\n            increase: function () {\n                this.count++\n            }\n        },\n        mounted() {\n            // code here when the component is first loaded\n        },\n        unmounted() {\n            // code here when the component is removed from the Dashboard\n            // i.e. when the user navigates away from the page\n        }\n    }\n</script>\n<style>\n    /* define any styles here - supports raw CSS */\n    .my-class {\n        color: red;\n    }\n</style>",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 1070,
-        "y": 280,
-        "wires": [
-            []
-        ]
     }
 ]
