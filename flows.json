@@ -1,0 +1,596 @@
+[
+    {
+        "id": "dbb4f9e4ee9b2ef6",
+        "type": "tab",
+        "label": "Fluxo 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e828c8bfebf1d573",
+        "type": "tab",
+        "label": "Fluxo 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a7769f71b1a40557",
+        "type": "tab",
+        "label": "Fluxo 4",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5751272d90bb3105",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true
+    },
+    {
+        "id": "03ae808964d91e13",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "2509275d52fb7e77",
+        "type": "mqtt-broker",
+        "name": "EclipseBroker",
+        "broker": "mqtt.eclipseprojects.io",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "1a6b39bf9eb8a9d5",
+        "type": "mqtt-broker",
+        "name": "Mosquitto",
+        "broker": "test.mosquitto.org",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "f6d47f9146d39df1",
+        "type": "mqtt-broker",
+        "name": "Local",
+        "broker": "127.0.0.1",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "6dea3424ac7469d4",
+        "type": "mqtt-broker",
+        "name": "HiveBroker",
+        "broker": "broker.hivemq.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "dfa7c066f875405a",
+        "type": "inject",
+        "z": "dbb4f9e4ee9b2ef6",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 230,
+        "y": 320,
+        "wires": [
+            [
+                "0b898c42daecafcc"
+            ]
+        ]
+    },
+    {
+        "id": "0b898c42daecafcc",
+        "type": "http request",
+        "z": "dbb4f9e4ee9b2ef6",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.csv",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 440,
+        "y": 320,
+        "wires": [
+            [
+                "e0acc7be6af177b9"
+            ]
+        ]
+    },
+    {
+        "id": "e0acc7be6af177b9",
+        "type": "csv",
+        "z": "dbb4f9e4ee9b2ef6",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 610,
+        "y": 320,
+        "wires": [
+            [
+                "c2bd553260939406",
+                "b7f588abe87a1db3"
+            ]
+        ]
+    },
+    {
+        "id": "c2bd553260939406",
+        "type": "debug",
+        "z": "dbb4f9e4ee9b2ef6",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "b7f588abe87a1db3",
+        "type": "switch",
+        "z": "dbb4f9e4ee9b2ef6",
+        "name": "",
+        "property": "payload.mag",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "7",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 650,
+        "y": 440,
+        "wires": [
+            [
+                "577b4737b68e7117"
+            ]
+        ]
+    },
+    {
+        "id": "577b4737b68e7117",
+        "type": "change",
+        "z": "dbb4f9e4ee9b2ef6",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PANIC!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 750,
+        "y": 540,
+        "wires": [
+            [
+                "5cb8cec290b3906c"
+            ]
+        ]
+    },
+    {
+        "id": "5cb8cec290b3906c",
+        "type": "debug",
+        "z": "dbb4f9e4ee9b2ef6",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "e36406f2.8ef798",
+        "type": "inject",
+        "z": "e828c8bfebf1d573",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 90,
+        "y": 380,
+        "wires": [
+            [
+                "c3c50023.3bbed"
+            ]
+        ]
+    },
+    {
+        "id": "c3c50023.3bbed",
+        "type": "http request",
+        "z": "e828c8bfebf1d573",
+        "name": "Recent Quakes",
+        "method": "GET",
+        "paytoqs": "ignore",
+        "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.csv",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 270,
+        "y": 380,
+        "wires": [
+            [
+                "8afc6cac.e0812"
+            ]
+        ]
+    },
+    {
+        "id": "8afc6cac.e0812",
+        "type": "csv",
+        "z": "e828c8bfebf1d573",
+        "name": "",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "x": 440,
+        "y": 380,
+        "wires": [
+            [
+                "44779781.4190f8",
+                "6f0eb546.9e208c"
+            ]
+        ]
+    },
+    {
+        "id": "44779781.4190f8",
+        "type": "debug",
+        "z": "e828c8bfebf1d573",
+        "name": "",
+        "active": true,
+        "complete": false,
+        "x": 600,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "6f0eb546.9e208c",
+        "type": "switch",
+        "z": "e828c8bfebf1d573",
+        "name": "",
+        "property": "payload.mag",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "7",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "outputs": 1,
+        "x": 480,
+        "y": 440,
+        "wires": [
+            [
+                "d78d4aa8.8c8208"
+            ]
+        ]
+    },
+    {
+        "id": "d78d4aa8.8c8208",
+        "type": "change",
+        "z": "e828c8bfebf1d573",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "PANIC!",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 500,
+        "wires": [
+            [
+                "72fddece.fac0d"
+            ]
+        ]
+    },
+    {
+        "id": "72fddece.fac0d",
+        "type": "debug",
+        "z": "e828c8bfebf1d573",
+        "name": "",
+        "active": true,
+        "complete": false,
+        "x": 720,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "be294081b2f24d84",
+        "type": "inject",
+        "z": "a7769f71b1a40557",
+        "name": "Ligar",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "ON",
+        "payloadType": "str",
+        "x": 530,
+        "y": 200,
+        "wires": [
+            [
+                "7b24ac7eb4b64f94"
+            ]
+        ]
+    },
+    {
+        "id": "7b24ac7eb4b64f94",
+        "type": "mqtt out",
+        "z": "a7769f71b1a40557",
+        "name": "Lights",
+        "topic": "teste/lampada",
+        "qos": "",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "2509275d52fb7e77",
+        "x": 710,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "9a54c20867d775dc",
+        "type": "mqtt in",
+        "z": "a7769f71b1a40557",
+        "name": "Entrada",
+        "topic": "teste/lampada_confirma",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "2509275d52fb7e77",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 490,
+        "y": 520,
+        "wires": [
+            [
+                "b382a2eb6331727d"
+            ]
+        ]
+    },
+    {
+        "id": "b382a2eb6331727d",
+        "type": "debug",
+        "z": "a7769f71b1a40557",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 640,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "9c0804567deffb98",
+        "type": "inject",
+        "z": "a7769f71b1a40557",
+        "name": "Desligar",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "x": 520,
+        "y": 280,
+        "wires": [
+            [
+                "7b24ac7eb4b64f94"
+            ]
+        ]
+    }
+]
