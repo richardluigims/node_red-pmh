@@ -23,17 +23,205 @@
         "nodes": [
             "7b24ac7eb4b64f94",
             "12cb8b2c4921e971",
-            "602d5a35dd3474c6",
-            "a39db64e9c59894a",
-            "aa300252cb509534",
-            "afb73b6ea43670cf",
-            "a225250ab99af8bc",
-            "5d46259fbfb20d69"
+            "5d46259fbfb20d69",
+            "9f7f66463bc0fbb5",
+            "fa5e14e94f4ec814",
+            "9a54c20867d775dc"
         ],
-        "x": 14,
+        "x": 34,
         "y": 19,
-        "w": 832,
-        "h": 342
+        "w": 572,
+        "h": 282
+    },
+    {
+        "id": "781519614d88436d",
+        "type": "group",
+        "z": "a7769f71b1a40557",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "8aa259957b0e7f3b",
+            "d02abd90871d1cf9",
+            "f3222fa19b011bd8",
+            "f98f0c2c1b5eb3ee",
+            "1804694aecc53005",
+            "847f6ae47a42b98d",
+            "c3e3a1cce6c4f6d9"
+        ],
+        "x": 848,
+        "y": 19,
+        "w": 498,
+        "h": 348
+    },
+    {
+        "id": "c2c10c8e1e8593d0",
+        "type": "group",
+        "z": "a7769f71b1a40557",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9361b8c0a9754dbf",
+            "66488bc171691eb6",
+            "2bd6331fd3dd5ffd",
+            "4b3af21429b954dc",
+            "fb48d6f33ab716d8",
+            "5f21b19c07f54297"
+        ],
+        "x": -26,
+        "y": 359,
+        "w": 492,
+        "h": 282
+    },
+    {
+        "id": "c3e3a1cce6c4f6d9",
+        "type": "group",
+        "z": "a7769f71b1a40557",
+        "g": "781519614d88436d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f50203839b84a36b",
+            "29600fe590d433cc"
+        ],
+        "x": 874,
+        "y": 199,
+        "w": 212,
+        "h": 142
+    },
+    {
+        "id": "42fb205586279285",
+        "type": "ui-theme",
+        "name": "Theme 7",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#ffffff",
+            "groupBg": "#ffffff",
+            "groupOutline": "#030303"
+        },
+        "sizes": {
+            "density": "comfortable",
+            "pagePadding": "12px",
+            "groupGap": "100 px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "cb223236b84f0c77",
+        "type": "ui-theme",
+        "name": "Theme 8",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#ffffff",
+            "groupBg": "#ffffff",
+            "groupOutline": "#030303"
+        },
+        "sizes": {
+            "density": "comfortable",
+            "pagePadding": "12px",
+            "groupGap": "100 px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "584464932f997479",
+        "type": "ui-theme",
+        "name": "Theme 9",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#ffffff",
+            "groupBg": "#ffffff",
+            "groupOutline": "#030303"
+        },
+        "sizes": {
+            "density": "comfortable",
+            "pagePadding": "12px",
+            "groupGap": "100 px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "5bbee8ae314667f9",
+        "type": "ui-theme",
+        "name": "Theme 10",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#ffffff",
+            "groupBg": "#ffffff",
+            "groupOutline": "#030303"
+        },
+        "sizes": {
+            "density": "comfortable",
+            "pagePadding": "12px",
+            "groupGap": "100 px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "cc45cc275abe950f",
+        "type": "ui-theme",
+        "name": "Theme 11",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#ffffff",
+            "groupBg": "#ffffff",
+            "groupOutline": "#030303"
+        },
+        "sizes": {
+            "density": "comfortable",
+            "pagePadding": "12px",
+            "groupGap": "100 px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "e7cb814d7d649aa1",
+        "type": "ui-theme",
+        "name": "Theme 12",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#ffffff",
+            "groupBg": "#ffffff",
+            "groupOutline": "#030303"
+        },
+        "sizes": {
+            "density": "comfortable",
+            "pagePadding": "12px",
+            "groupGap": "100 px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
     },
     {
         "id": "5751272d90bb3105",
@@ -44,11 +232,13 @@
         "includeClientData": true,
         "acceptsClientConfig": [
             "ui-notification",
-            "ui-control"
+            "ui-control",
+            "ui-gauge",
+            "ui-template"
         ],
         "showPathInSidebar": false,
-        "showPageTitle": true,
-        "navigationStyle": "default",
+        "headerContent": "page",
+        "navigationStyle": "icon",
         "titleBarStyle": "default",
         "showReconnectNotification": true,
         "notificationDisplayTime": 1,
@@ -60,7 +250,26 @@
         "name": "Default Theme",
         "colors": {
             "surface": "#ffffff",
-            "primary": "#0094CE",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "5px"
+        }
+    },
+    {
+        "id": "3b56bf0532022fe5",
+        "type": "ui-theme",
+        "name": "Theme 2",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
             "bgPage": "#eeeeee",
             "groupBg": "#ffffff",
             "groupOutline": "#cccccc"
@@ -72,6 +281,167 @@
             "groupBorderRadius": "4px",
             "widgetGap": "12px"
         }
+    },
+    {
+        "id": "8b1639e48ee324dc",
+        "type": "ui-theme",
+        "name": "Padrão",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#ff0000",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#000000"
+        },
+        "sizes": {
+            "pagePadding": "100px",
+            "groupGap": "0px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "102px",
+            "density": "default"
+        }
+    },
+    {
+        "id": "f02cc86b66a52a5d",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#000000"
+        },
+        "sizes": {
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "c4cf8ba0271a3aa1",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#000000"
+        },
+        "sizes": {
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "e436876eafc66695",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#000000"
+        },
+        "sizes": {
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "d78345db1d69c9a5",
+        "type": "ui-page",
+        "name": "Controle Iluminação",
+        "ui": "5751272d90bb3105",
+        "path": "",
+        "icon": "lightbulb ",
+        "layout": "flex",
+        "theme": "03ae808964d91e13",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "info": "<style>\r\n    .nrdb-ui-group.acad .v-card {\r\n        background-color: #e88113db !important;\r\n        /* Azul escuro USCS /\r\n        border-radius: 16px !important;\r\n        border: 2px solid #00509E;\r\n        / Borda azul intermediária /\r\n        color: #ffffff;\r\n        / Texto branco para contraste /\r\n        margin: 45px;\r\n        / Espaço ao redor do card /\r\n        padding: 15px;\r\n        / Mais espaço interno /\r\n        width: 300px;\r\n        / Mantém a largura /\r\n        height: 275px;\r\n        / Mantém a altura /\r\n        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);\r\n        / Sombra suave /\r\n        display: flex;\r\n        flex-direction: column;\r\n        align-items: center;\r\n        justify-content: center;\r\n    }\r\n\r\n    .nrdb-ui-group.acad .v-card-title {\r\n        font-size: 18px;\r\n        font-weight: bold;\r\n        color: #FFD700;\r\n        / Amarelo dourado para destaque /\r\n        text-transform: uppercase;\r\n        / Texto em caixa alta /\r\n        text-align: center;\r\n        margin-bottom: 5px;\r\n        / Espaço entre o título e os botões /\r\n        font-family: \"Arial\", sans-serif;\r\n    }\r\n\r\n\r\n    .nrdb-ui-group.acad .v-btn:hover {\r\n        background-color: #FFD700;\r\n        / Amarelo dourado ao passar o mouse /\r\n        color: #003366;\r\n        / Azul escuro no texto */\r\n    }\r\n</style>"
+    },
+    {
+        "id": "bffff57babab2d4e",
+        "type": "ui-group",
+        "name": "Academia",
+        "page": "d78345db1d69c9a5",
+        "width": "6",
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "acad",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default",
+        "info": "<style>\r\n    .nrdb-ui-group.acad .v-card {\r\n        background-color: #e88113db !important;\r\n        /* Azul escuro USCS */\r\n        border-radius: 16px !important;\r\n        border: 2px solid #00509E;\r\n        /* Borda azul intermediária */\r\n        color: #ffffff;\r\n        /* Texto branco para contraste */\r\n        margin: 45px;\r\n        /* Espaço ao redor do card */\r\n        padding: 15px;\r\n        /* Mais espaço interno /\r\n        width: 300px;\r\n        / Mantém a largura /\r\n        height: 275px;\r\n        / Mantém a altura /\r\n        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);\r\n        / Sombra suave /\r\n        display: flex;\r\n        flex-direction: column;\r\n        align-items: center;\r\n        justify-content: center;\r\n    }\r\n\r\n    .nrdb-ui-group.acad .v-card-title {\r\n        font-size: 18px;\r\n        font-weight: bold;\r\n        color: #FFD700;\r\n        / Amarelo dourado para destaque /\r\n        text-transform: uppercase;\r\n        / Texto em caixa alta /\r\n        text-align: center;\r\n        margin-bottom: 5px;\r\n        / Espaço entre o título e os botões /\r\n        font-family: \"Arial\", sans-serif;\r\n    }\r\n\r\n\r\n    .nrdb-ui-group.acad .v-btn:hover {\r\n        background-color: #FFD700;\r\n        / Amarelo dourado ao passar o mouse /\r\n        color: #003366;\r\n        / Azul escuro no texto */\r\n    }\r\n</style>`"
+    },
+    {
+        "id": "e8b5a577d2fd58b5",
+        "type": "ui-page",
+        "name": "Vazamento de gás",
+        "ui": "5751272d90bb3105",
+        "path": "/page2",
+        "icon": "fire",
+        "layout": "flex",
+        "theme": "03ae808964d91e13",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
     },
     {
         "id": "2509275d52fb7e77",
@@ -198,44 +568,6 @@
         "sessionExpiry": ""
     },
     {
-        "id": "3b56bf0532022fe5",
-        "type": "ui-theme",
-        "name": "Theme 2",
-        "colors": {
-            "surface": "#ffffff",
-            "primary": "#0094ce",
-            "bgPage": "#eeeeee",
-            "groupBg": "#ffffff",
-            "groupOutline": "#cccccc"
-        },
-        "sizes": {
-            "density": "default",
-            "pagePadding": "12px",
-            "groupGap": "12px",
-            "groupBorderRadius": "4px",
-            "widgetGap": "12px"
-        }
-    },
-    {
-        "id": "8b1639e48ee324dc",
-        "type": "ui-theme",
-        "name": "Padrão",
-        "colors": {
-            "surface": "#ffffff",
-            "primary": "#ff0000",
-            "bgPage": "#eeeeee",
-            "groupBg": "#ffffff",
-            "groupOutline": "#000000"
-        },
-        "sizes": {
-            "pagePadding": "100px",
-            "groupGap": "0px",
-            "groupBorderRadius": "4px",
-            "widgetGap": "102px",
-            "density": "default"
-        }
-    },
-    {
         "id": "e55366851337b3a7",
         "type": "mqtt-broker",
         "name": "",
@@ -265,24 +597,6 @@
         "willMsg": {},
         "userProps": "",
         "sessionExpiry": ""
-    },
-    {
-        "id": "f02cc86b66a52a5d",
-        "type": "ui-theme",
-        "name": "Default Theme",
-        "colors": {
-            "surface": "#ffffff",
-            "primary": "#0094ce",
-            "bgPage": "#eeeeee",
-            "groupBg": "#ffffff",
-            "groupOutline": "#000000"
-        },
-        "sizes": {
-            "pagePadding": "12px",
-            "groupGap": "12px",
-            "groupBorderRadius": "4px",
-            "widgetGap": "12px"
-        }
     },
     {
         "id": "d198025329072956",
@@ -347,24 +661,6 @@
         "sessionExpiry": ""
     },
     {
-        "id": "c4cf8ba0271a3aa1",
-        "type": "ui-theme",
-        "name": "Default Theme",
-        "colors": {
-            "surface": "#ffffff",
-            "primary": "#0094ce",
-            "bgPage": "#eeeeee",
-            "groupBg": "#ffffff",
-            "groupOutline": "#000000"
-        },
-        "sizes": {
-            "pagePadding": "12px",
-            "groupGap": "12px",
-            "groupBorderRadius": "4px",
-            "widgetGap": "12px"
-        }
-    },
-    {
         "id": "d63678fab116900c",
         "type": "mqtt-broker",
         "name": "",
@@ -394,24 +690,6 @@
         "willMsg": {},
         "userProps": "",
         "sessionExpiry": ""
-    },
-    {
-        "id": "e436876eafc66695",
-        "type": "ui-theme",
-        "name": "Default Theme",
-        "colors": {
-            "surface": "#ffffff",
-            "primary": "#0094ce",
-            "bgPage": "#eeeeee",
-            "groupBg": "#ffffff",
-            "groupOutline": "#000000"
-        },
-        "sizes": {
-            "pagePadding": "12px",
-            "groupGap": "12px",
-            "groupBorderRadius": "4px",
-            "widgetGap": "12px"
-        }
     },
     {
         "id": "e6eb288a2812d19d",
@@ -445,122 +723,34 @@
         "sessionExpiry": ""
     },
     {
-        "id": "d78345db1d69c9a5",
-        "type": "ui-page",
-        "name": "Controle Iluminação",
-        "ui": "5751272d90bb3105",
-        "path": "",
-        "icon": "lightbulb ",
-        "layout": "grid",
-        "theme": "03ae808964d91e13",
-        "breakpoints": [
-            {
-                "name": "Default",
-                "px": "0",
-                "cols": "3"
-            },
-            {
-                "name": "Tablet",
-                "px": "576",
-                "cols": "6"
-            },
-            {
-                "name": "Small Desktop",
-                "px": "768",
-                "cols": "9"
-            },
-            {
-                "name": "Desktop",
-                "px": "1024",
-                "cols": "12"
-            }
-        ],
-        "order": 1,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "info": "<style>\r\n    .nrdb-ui-group.acad .v-card {\r\n        background-color: #e88113db !important;\r\n        /* Azul escuro USCS */\r\n        border-radius: 16px !important;\r\n        border: 2px solid #00509E;\r\n        /* Borda azul intermediária */\r\n        color: #ffffff;\r\n        /* Texto branco para contraste */\r\n        margin: 45px;\r\n        /* Espaço ao redor do card */\r\n        padding: 15px;\r\n        /* Mais espaço interno */\r\n        width: 300px;\r\n        /* Mantém a largura */\r\n        height: 275px;\r\n        /* Mantém a altura */\r\n        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);\r\n        /* Sombra suave */\r\n        display: flex;\r\n        flex-direction: column;\r\n        align-items: center;\r\n        justify-content: center;\r\n    }\r\n\r\n    .nrdb-ui-group.acad .v-card-title {\r\n        font-size: 18px;\r\n        font-weight: bold;\r\n        color: #FFD700;\r\n        /* Amarelo dourado para destaque */\r\n        text-transform: uppercase;\r\n        /* Texto em caixa alta */\r\n        text-align: center;\r\n        margin-bottom: 5px;\r\n        /* Espaço entre o título e os botões */\r\n        font-family: \"Arial\", sans-serif;\r\n    }\r\n\r\n\r\n    .nrdb-ui-group.acad .v-btn:hover {\r\n        background-color: #FFD700;\r\n        /* Amarelo dourado ao passar o mouse */\r\n        color: #003366;\r\n        /* Azul escuro no texto */\r\n    }\r\n</style>"
-    },
-    {
-        "id": "bffff57babab2d4e",
-        "type": "ui-group",
-        "name": "Academia",
-        "page": "d78345db1d69c9a5",
-        "width": 6,
-        "height": 1,
-        "order": 1,
-        "showTitle": true,
-        "className": "acad",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default",
-        "info": "`<style>\r\n    .nrdb-ui-group.acad .v-card {\r\n        background-color: #e88113db !important;\r\n        /* Azul escuro USCS */\r\n        border-radius: 16px !important;\r\n        border: 2px solid #00509E;\r\n        /* Borda azul intermediária */\r\n        color: #ffffff;\r\n        /* Texto branco para contraste */\r\n        margin: 45px;\r\n        /* Espaço ao redor do card *`/\r\n        padding: 15px;\r\n        /* Mais espaço interno */\r\n        width: 300px;\r\n        /* Mantém a largura */\r\n        height: 275px;\r\n        /* Mantém a altura */\r\n        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);\r\n        /* Sombra suave */\r\n        display: flex;\r\n        flex-direction: column;\r\n        align-items: center;\r\n        justify-content: center;\r\n    }\r\n\r\n    .nrdb-ui-group.acad .v-card-title {\r\n        font-size: 18px;\r\n        font-weight: bold;\r\n        color: #FFD700;\r\n        /* Amarelo dourado para destaque */\r\n        text-transform: uppercase;\r\n        /* Texto em caixa alta */\r\n        text-align: center;\r\n        margin-bottom: 5px;\r\n        /* Espaço entre o título e os botões */\r\n        font-family: \"Arial\", sans-serif;\r\n    }\r\n\r\n\r\n    .nrdb-ui-group.acad .v-btn:hover {\r\n        background-color: #FFD700;\r\n        /* Amarelo dourado ao passar o mouse */\r\n        color: #003366;\r\n        /* Azul escuro no texto */\r\n    }\r\n</style>`"
-    },
-    {
-        "id": "e8b5a577d2fd58b5",
-        "type": "ui-page",
-        "name": "Vazamento de gás",
-        "ui": "5751272d90bb3105",
-        "path": "/page2",
-        "icon": "fire",
-        "layout": "grid",
-        "theme": "03ae808964d91e13",
-        "breakpoints": [
-            {
-                "name": "Default",
-                "px": "0",
-                "cols": "3"
-            },
-            {
-                "name": "Tablet",
-                "px": "576",
-                "cols": "6"
-            },
-            {
-                "name": "Small Desktop",
-                "px": "768",
-                "cols": "9"
-            },
-            {
-                "name": "Desktop",
-                "px": "1024",
-                "cols": "12"
-            }
-        ],
-        "order": 2,
-        "className": "",
-        "visible": "true",
-        "disabled": "false"
-    },
-    {
         "id": "fc11128e60fca395",
         "type": "ui-page",
         "name": "Controle Caixas d'água",
         "ui": "5751272d90bb3105",
-        "path": "/page3",
+        "path": "/Cxaguas",
         "icon": "water",
-        "layout": "grid",
-        "theme": "03ae808964d91e13",
+        "layout": "flex",
+        "theme": "20b2c056620794d4",
         "breakpoints": [
             {
                 "name": "Default",
                 "px": "0",
-                "cols": "3"
+                "cols": "2"
             },
             {
                 "name": "Tablet",
                 "px": "576",
-                "cols": "6"
+                "cols": "2"
             },
             {
                 "name": "Small Desktop",
                 "px": "768",
-                "cols": "9"
+                "cols": "2"
             },
             {
                 "name": "Desktop",
-                "px": "1024",
-                "cols": "12"
+                "px": "600",
+                "cols": "2"
             }
         ],
         "order": 3,
@@ -569,18 +759,273 @@
         "disabled": "false"
     },
     {
-        "id": "5936cb40dabd2561",
+        "id": "1d58a16a2850fa98",
+        "type": "ui-theme",
+        "name": "Theme 7",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#ffffff",
+            "groupBg": "#ffffff",
+            "groupOutline": "#030303"
+        },
+        "sizes": {
+            "density": "comfortable",
+            "pagePadding": "12px",
+            "groupGap": "100 px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "d136171ef5a7675d",
+        "type": "ui-theme",
+        "name": "Theme 8",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#ffffff",
+            "groupBg": "#ffffff",
+            "groupOutline": "#030303"
+        },
+        "sizes": {
+            "density": "comfortable",
+            "pagePadding": "12px",
+            "groupGap": "100 px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "842f97514eeb0fe9",
+        "type": "ui-theme",
+        "name": "Theme 9",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#ffffff",
+            "groupBg": "#ffffff",
+            "groupOutline": "#030303"
+        },
+        "sizes": {
+            "density": "comfortable",
+            "pagePadding": "12px",
+            "groupGap": "100 px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "b9e5d3f312d868ce",
+        "type": "ui-theme",
+        "name": "Theme 10",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#ffffff",
+            "groupBg": "#ffffff",
+            "groupOutline": "#030303"
+        },
+        "sizes": {
+            "density": "comfortable",
+            "pagePadding": "12px",
+            "groupGap": "100 px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "aab6c5eb1cbc8145",
+        "type": "ui-theme",
+        "name": "Theme 11",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#ffffff",
+            "groupBg": "#ffffff",
+            "groupOutline": "#030303"
+        },
+        "sizes": {
+            "density": "comfortable",
+            "pagePadding": "12px",
+            "groupGap": "100 px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "20b2c056620794d4",
+        "type": "ui-theme",
+        "name": "Theme 12",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#ffffff",
+            "groupBg": "#ffffff",
+            "groupOutline": "#030303"
+        },
+        "sizes": {
+            "density": "comfortable",
+            "pagePadding": "12px",
+            "groupGap": "100 px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "f47ab8cfde572038",
         "type": "ui-group",
-        "name": "Caixa d\"água 1",
+        "name": "Grupo Caixa 1",
         "page": "fc11128e60fca395",
         "width": 6,
         "height": 1,
         "order": 1,
-        "showTitle": true,
-        "className": "caixa",
+        "showTitle": false,
+        "className": "cx1",
         "visible": "true",
         "disabled": "false",
         "groupType": "default"
+    },
+    {
+        "id": "b06208c1d86fd5ba",
+        "type": "ui-group",
+        "name": "Grupo Caixa 2",
+        "page": "fc11128e60fca395",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": false,
+        "className": "cx2",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "6f153c26a5886006",
+        "type": "ui-group",
+        "name": "Salão de festas",
+        "page": "e8b5a577d2fd58b5",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "salaoFesta",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "419d2ecdbf31606b",
+        "type": "ui-group",
+        "name": "Casa de Maquinas",
+        "page": "e8b5a577d2fd58b5",
+        "width": 6,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "CasaMaquina",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "12cb8b2c4921e971",
+        "type": "ui-template",
+        "z": "a7769f71b1a40557",
+        "g": "d94ecd6325fc9213",
+        "group": "",
+        "page": "",
+        "ui": "5751272d90bb3105",
+        "name": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": ".v-main {\n    background-image: url(\"https://upload.wikimedia.org/wikipedia/commons/c/c9/Logo_uscs.png\");\n    background-position: center;\n    background-color: rgba(255, 255, 255, 0.3);\n    background-blend-mode: lighten;\n    background-size: 500px 400px;\n}\n\n\n.v-navigation-drawer {\n    background-color: #e88113db;\n    font-size: larger;\n}\n\n.v-card-title {\n    color: #100101;\n}\n\n\n.v-list-item-title {\n    color: #fdfafa !important;\n    font-weight: 500 !important;\n    font-size: 16px !important;\n}\n\n\n.v-app-bar.v-toolbar {\n    background: transparent;\n}\n\n \n.v-toolbar-title__placeholder {\n    color: #000000;\n}\n\n \n.v-theme--nrdb .v-icon--size-default {\n    color: #000000;\n}",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "site:style",
+        "className": "",
+        "x": 120,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5d46259fbfb20d69",
+        "type": "ui-template",
+        "z": "a7769f71b1a40557",
+        "g": "d94ecd6325fc9213",
+        "group": "",
+        "page": "d78345db1d69c9a5",
+        "ui": "",
+        "name": "Grupo Academia",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "head": "",
+        "format": "<style>\n    .nrdb-ui-group.acad {\n        grid-column: span 2 !important; /* Ajuste o número conforme o espaço que deseja ocupar */\n        grid-row: span 2 !important; /* Define a altura */\n    }\n\n    .nrdb-ui-group.acad .v-card {\n        width: 300px !important;  /* Mantém o ajuste correto dentro do grid */\n        height: 200px !important;\n    }\n\n      .nrdb-ui-group.acad .v-card {\n        background: transparent !important;\n        box-shadow: none !important; /* Remove a sombra, se houver */\n    }\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "widget:page",
+        "className": "",
+        "x": 330,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9a54c20867d775dc",
+        "type": "mqtt in",
+        "z": "a7769f71b1a40557",
+        "g": "d94ecd6325fc9213",
+        "name": "Entrada",
+        "topic": "teste/lampada_confirma",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "2509275d52fb7e77",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 230,
+        "y": 160,
+        "wires": [
+            [
+                "fa5e14e94f4ec814",
+                "9f7f66463bc0fbb5"
+            ]
+        ]
+    },
+    {
+        "id": "8aa259957b0e7f3b",
+        "type": "mqtt in",
+        "z": "a7769f71b1a40557",
+        "g": "781519614d88436d",
+        "name": "",
+        "topic": "teste/agua",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "2509275d52fb7e77",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 960,
+        "y": 60,
+        "wires": [
+            [
+                "d02abd90871d1cf9",
+                "f3222fa19b011bd8",
+                "f98f0c2c1b5eb3ee",
+                "1804694aecc53005",
+                "847f6ae47a42b98d"
+            ]
+        ]
     },
     {
         "id": "7b24ac7eb4b64f94",
@@ -597,35 +1042,32 @@
         "correl": "",
         "expiry": "",
         "broker": "2509275d52fb7e77",
-        "x": 770,
-        "y": 100,
+        "x": 530,
+        "y": 140,
         "wires": []
     },
     {
-        "id": "9a54c20867d775dc",
-        "type": "mqtt in",
-        "z": "a7769f71b1a40557",
-        "name": "Entrada",
-        "topic": "teste/lampada_confirma",
-        "qos": "0",
-        "datatype": "auto-detect",
-        "broker": "2509275d52fb7e77",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 450,
-        "y": 520,
-        "wires": [
-            [
-                "b382a2eb6331727d"
-            ]
-        ]
-    },
-    {
-        "id": "b382a2eb6331727d",
+        "id": "fa5e14e94f4ec814",
         "type": "debug",
         "z": "a7769f71b1a40557",
+        "g": "d94ecd6325fc9213",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 240,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "d02abd90871d1cf9",
+        "type": "debug",
+        "z": "a7769f71b1a40557",
+        "g": "781519614d88436d",
         "name": "debug 1",
         "active": true,
         "tosidebar": true,
@@ -635,214 +1077,23 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 600,
-        "y": 600,
-        "wires": []
-    },
-    {
-        "id": "8aa259957b0e7f3b",
-        "type": "mqtt in",
-        "z": "a7769f71b1a40557",
-        "name": "",
-        "topic": "teste/agua",
-        "qos": "0",
-        "datatype": "auto-detect",
-        "broker": "2509275d52fb7e77",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 340,
-        "y": 680,
-        "wires": [
-            [
-                "5c0114fe0c35ef65"
-            ]
-        ]
-    },
-    {
-        "id": "12cb8b2c4921e971",
-        "type": "ui-template",
-        "z": "a7769f71b1a40557",
-        "g": "d94ecd6325fc9213",
-        "group": "",
-        "page": "",
-        "ui": "5751272d90bb3105",
-        "name": "",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "head": "",
-        "format": ".v-main {\n    background-image: url(\"https://upload.wikimedia.org/wikipedia/commons/c/c9/Logo_uscs.png\");\n    background-position: center;\n    background-color: rgba(255, 255, 255, 0.3);\n    background-blend-mode: lighten;\n    background-size: 500px 400px;\n}\n\n/* cuida do menu */\n.v-navigation-drawer {\n    background-color: #e88113db;\n    font-size: larger;\n}\n\n/* cuida da cor do titulo do grupo */\n.v-card-title {\n    color: #100101;\n}\n\n/* cuida da cor do titulo do menu */\n.v-list-item-title {\n    color: #fdfafa !important;\n    font-weight: 500 !important;\n    font-size: 16px !important;\n}\n\n/* cuida da transperencia da barra de titulo */\n.v-app-bar.v-toolbar {\n    background: transparent;\n}\n\n/* cuida da cor do titulo */\n.v-toolbar-title__placeholder {\n    color: #000000;\n}\n\n/* cuida da cor ddo icone de expansao do menu */\n.v-theme--nrdb .v-icon--size-default {\n    color: #000000;\n}",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "site:style",
-        "className": "",
-        "x": 100,
+        "x": 1160,
         "y": 60,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "602d5a35dd3474c6",
-        "type": "ui-template",
-        "z": "a7769f71b1a40557",
-        "g": "d94ecd6325fc9213",
-        "group": "bffff57babab2d4e",
-        "page": "",
-        "ui": "",
-        "name": "Botão 1",
-        "order": 1,
-        "width": 3,
-        "height": 0,
-        "head": "",
-        "format": "<template>\n    <v-btn class=\"button\" ref=\"button\" stacked @click=\"alternar\">\n        <v-icon class=\"icon\" ref=\"icon\">{{ icon }}</v-icon>\n        <div class=\"title\">Luz 1</div>\n    </v-btn>\n</template>\n\n<script>\nexport default {\n    data() {\n        return {\n            value: \"OFF\",\n            icon: \"mdi-lightbulb-outline\"\n        };\n    },\n    methods: {\n        alternar() {\n            this.value === \"ON\" ? this.desligar() : this.ligar();\n        },\n        ligar() {\n            this.icon = \"mdi-lightbulb-on-outline\";\n            this.$refs.icon.$el.style.color = \"#FFD700\"; /* Cor dourada para efeito de lâmpada acesa */\n            this.$refs.icon.$el.style.textShadow = \"0px 0px 15px #FFD700\"; /* Brilho ao redor */\n            \n            if (this.value === \"OFF\") {\n                this.send({ payload: \"ON\" });\n                this.value = \"ON\";\n            }\n        },\n        desligar() {\n            this.icon = \"mdi-lightbulb-outline\";\n            this.$refs.icon.$el.style.color = \"#A9A9A9\"; /* Cor acinzentada para efeito apagado */\n            this.$refs.icon.$el.style.textShadow = \"none\";\n            \n            if (this.value === \"ON\") {\n                this.send({ payload: \"OFF\" });\n                this.value = \"OFF\";\n            }\n        }\n    },\n    watch: {\n        msg() {\n            if (this.msg?.payload) {\n                console.log(\"Mensagem recebida:\", this.msg);\n                this.msg.payload === \"ON\" ? this.ligar() : this.desligar();\n            }\n        }\n    }\n};\n</script>\n\n<style>\n.button {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    width: 120px; \n    height: 140px; /* 🔥 Aumentado para mais espaço interno */\n    background-color: #2C2C2C;\n    color: white;\n    border: none;\n    border-radius: 16px;\n    transition: all 0.3s ease-in-out;\n    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);\n    margin-top: 0px;\n}\n\n.title {\n    font-size: 14px;\n    font-weight: bold;\n    margin-top: 8px; /* 🔥 Maior espaço entre o ícone e o texto */\n}\n\n.icon {\n    font-size: 45px; /* 🔥 Ícone um pouco maior para equilíbrio */\n    margin-top: 5px; /* 🔥 Maior distância do topo */\n    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;\n}\n</style>\n",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 460,
-        "y": 200,
-        "wires": [
-            [
-                "a39db64e9c59894a",
-                "7b24ac7eb4b64f94"
-            ]
-        ]
-    },
-    {
-        "id": "a39db64e9c59894a",
-        "type": "debug",
-        "z": "a7769f71b1a40557",
-        "g": "d94ecd6325fc9213",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": true,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 650,
-        "y": 280,
         "wires": []
     },
     {
-        "id": "aa300252cb509534",
-        "type": "ui-template",
-        "z": "a7769f71b1a40557",
-        "g": "d94ecd6325fc9213",
-        "group": "bffff57babab2d4e",
-        "page": "",
-        "ui": "",
-        "name": "Botão 2",
-        "order": 2,
-        "width": 3,
-        "height": 0,
-        "head": "",
-        "format": "<template>\n    <v-btn class=\"button\" ref=\"button\" stacked @click=\"alternar\">\n        <v-icon class=\"icon\" ref=\"icon\">{{ icon }}</v-icon>\n        <div class=\"title\">Luz 2</div>\n    </v-btn>\n</template>\n\n<script>\n    export default {\n    data() {\n        return {\n            value: \"OFF\",\n            icon: \"mdi-lightbulb-outline\"\n        };\n    },\n    methods: {\n        alternar() {\n            this.value === \"ON\" ? this.desligar() : this.ligar();\n        },\n        ligar() {\n            this.icon = \"mdi-lightbulb-on-outline\";\n            this.$refs.icon.$el.style.color = \"#FFD700\"; /* Cor dourada para efeito de lâmpada acesa */\n            this.$refs.icon.$el.style.textShadow = \"0px 0px 15px #FFD700\"; /* Brilho ao redor */\n            \n            if (this.value === \"OFF\") {\n                this.send({ payload: \"ON\" });\n                this.value = \"ON\";\n            }\n        },\n        desligar() {\n            this.icon = \"mdi-lightbulb-outline\";\n            this.$refs.icon.$el.style.color = \"#A9A9A9\"; /* Cor acinzentada para efeito apagado */\n            this.$refs.icon.$el.style.textShadow = \"none\";\n            \n            if (this.value === \"ON\") {\n                this.send({ payload: \"OFF\" });\n                this.value = \"OFF\";\n            }\n        }\n    },\n    watch: {\n        msg() {\n            if (this.msg?.payload) {\n                console.log(\"Mensagem recebida:\", this.msg);\n                this.msg.payload === \"ON\" ? this.ligar() : this.desligar();\n            }\n        }\n    }\n};\n</script>\n\n<style>\n    .button {\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n        width: 120px;\n        height: 140px;\n        /* 🔥 Aumentado para mais espaço interno */\n        background-color: #2C2C2C;\n        color: white;\n        border: none;\n        border-radius: 16px;\n        transition: all 0.3s ease-in-out;\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);\n    }\n\n    .button:hover {\n        background-color: #3A3A3A;\n        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);\n    }\n\n    .title {\n        font-size: 14px;\n        font-weight: bold;\n        margin-top: 8px;\n        /* 🔥 Maior espaço entre o ícone e o texto */\n    }\n\n    .icon {\n        font-size: 45px;\n        /* 🔥 Ícone um pouco maior para equilíbrio */\n        margin-top: 5px;\n        /* 🔥 Maior distância do topo */\n        transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;\n    }\n</style>",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 460,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "afb73b6ea43670cf",
-        "type": "ui-template",
-        "z": "a7769f71b1a40557",
-        "g": "d94ecd6325fc9213",
-        "group": "bffff57babab2d4e",
-        "page": "",
-        "ui": "",
-        "name": "Botão 3",
-        "order": 3,
-        "width": 3,
-        "height": 0,
-        "head": "",
-        "format": "<template>\n    <v-btn class=\"button\" ref=\"button\" stacked @click=\"alternar\">\n        <v-icon class=\"icon\" ref=\"icon\">{{ icon }}</v-icon>\n        <div class=\"title\">Luz 3</div>\n    </v-btn>\n</template>\n\n<script>\n    export default {\n    data() {\n        return {\n            value: \"OFF\",\n            icon: \"mdi-lightbulb-outline\"\n        };\n    },\n    methods: {\n        alternar() {\n            this.value === \"ON\" ? this.desligar() : this.ligar();\n        },\n        ligar() {\n            this.icon = \"mdi-lightbulb-on-outline\";\n            this.$refs.icon.$el.style.color = \"#FFD700\"; /* Cor dourada para efeito de lâmpada acesa */\n            this.$refs.icon.$el.style.textShadow = \"0px 0px 15px #FFD700\"; /* Brilho ao redor */\n            \n            if (this.value === \"OFF\") {\n                this.send({ payload: \"ON\" });\n                this.value = \"ON\";\n            }\n        },\n        desligar() {\n            this.icon = \"mdi-lightbulb-outline\";\n            this.$refs.icon.$el.style.color = \"#A9A9A9\"; /* Cor acinzentada para efeito apagado */\n            this.$refs.icon.$el.style.textShadow = \"none\";\n            \n            if (this.value === \"ON\") {\n                this.send({ payload: \"OFF\" });\n                this.value = \"OFF\";\n            }\n        }\n    },\n    watch: {\n        msg() {\n            if (this.msg?.payload) {\n                console.log(\"Mensagem recebida:\", this.msg);\n                this.msg.payload === \"ON\" ? this.ligar() : this.desligar();\n            }\n        }\n    }\n};\n</script>\n\n<style>\n    .button {\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n        width: 120px;\n        height: 140px;\n        /* 🔥 Aumentado para mais espaço interno */\n        background-color: #2C2C2C;\n        color: white;\n        border: none;\n        border-radius: 16px;\n        transition: all 0.3s ease-in-out;\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);\n    }\n\n    .button:hover {\n        background-color: #3A3A3A;\n        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);\n    }\n\n    .title {\n        font-size: 14px;\n        font-weight: bold;\n        margin-top: 8px;\n        /* 🔥 Maior espaço entre o ícone e o texto */\n    }\n\n    .icon {\n        font-size: 45px;\n        /* 🔥 Ícone um pouco maior para equilíbrio */\n        margin-top: 5px;\n        /* 🔥 Maior distância do topo */\n        transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;\n    }\n</style>",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 460,
-        "y": 280,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a225250ab99af8bc",
-        "type": "ui-template",
-        "z": "a7769f71b1a40557",
-        "g": "d94ecd6325fc9213",
-        "group": "bffff57babab2d4e",
-        "page": "",
-        "ui": "",
-        "name": "Botão 4",
-        "order": 4,
-        "width": 3,
-        "height": 0,
-        "head": "",
-        "format": "<template>\n    <v-btn class=\"button\" ref=\"button\" stacked @click=\"alternar\">\n        <v-icon class=\"icon\" ref=\"icon\">{{ icon }}</v-icon>\n        <div class=\"title\">Luz 4</div>\n    </v-btn>\n</template>\n\n<script>\n    export default {\n    data() {\n        return {\n            value: \"OFF\",\n            icon: \"mdi-lightbulb-outline\"\n        };\n    },\n    methods: {\n        alternar() {\n            this.value === \"ON\" ? this.desligar() : this.ligar();\n        },\n        ligar() {\n            this.icon = \"mdi-lightbulb-on-outline\";\n            this.$refs.icon.$el.style.color = \"#FFD700\"; /* Cor dourada para efeito de lâmpada acesa */\n            this.$refs.icon.$el.style.textShadow = \"0px 0px 15px #FFD700\"; /* Brilho ao redor */\n            \n            if (this.value === \"OFF\") {\n                this.send({ payload: \"ON\" });\n                this.value = \"ON\";\n            }\n        },\n        desligar() {\n            this.icon = \"mdi-lightbulb-outline\";\n            this.$refs.icon.$el.style.color = \"#A9A9A9\"; /* Cor acinzentada para efeito apagado */\n            this.$refs.icon.$el.style.textShadow = \"none\";\n            \n            if (this.value === \"ON\") {\n                this.send({ payload: \"OFF\" });\n                this.value = \"OFF\";\n            }\n        }\n    },\n    watch: {\n        msg() {\n            if (this.msg?.payload) {\n                console.log(\"Mensagem recebida:\", this.msg);\n                this.msg.payload === \"ON\" ? this.ligar() : this.desligar();\n            }\n        }\n    }\n};\n</script>\n\n<style>\n    .button {\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n        width: 120px;\n        height: 140px;\n        /* 🔥 Aumentado para mais espaço interno */\n        background-color: #2C2C2C;\n        color: white;\n        border: none;\n        border-radius: 16px;\n        transition: all 0.3s ease-in-out;\n        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);\n    }\n\n    .button:hover {\n        background-color: #3A3A3A;\n        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);\n    }\n\n    .title {\n        font-size: 14px;\n        font-weight: bold;\n        margin-top: 8px;\n        /* 🔥 Maior espaço entre o ícone e o texto */\n    }\n\n    .icon {\n        font-size: 45px;\n        /* 🔥 Ícone um pouco maior para equilíbrio */\n        margin-top: 5px;\n        /* 🔥 Maior distância do topo */\n        transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;\n    }\n</style>",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 460,
-        "y": 320,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5d46259fbfb20d69",
-        "type": "ui-template",
-        "z": "a7769f71b1a40557",
-        "g": "d94ecd6325fc9213",
-        "group": "",
-        "page": "d78345db1d69c9a5",
-        "ui": "",
-        "name": "Grupo Academia",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "head": "",
-        "format": "<style>\n    .nrdb-ui-group.acad .v-card {\n        background-color: #fdfafa !important;\n        /* Azul escuro USCS */\n        border-radius: 16px !important;\n        border: 2px solid #00509E;\n        /* Borda azul intermediária */\n        color: #ffffff;\n        /* Texto branco para contraste */\n        margin: 45px;\n        /* Espaço ao redor do card */\n        padding: 15px;\n        /* Mais espaço interno */\n        width: 300px;\n        /* Mantém a largura */\n        height: 275px;\n        /* Mantém a altura */\n        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);\n        /* Sombra suave */\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: center;\n    }\n\n    .nrdb-ui-group.acad .v-card-title {\n        font-size: 18px;\n        font-weight: bold;\n        color: #000000;\n        /* Amarelo dourado para destaque */\n        text-transform: uppercase;\n        /* Texto em caixa alta */\n        text-align: center;\n        margin-bottom: 5px;\n        /* Espaço entre o título e os botões */\n        font-family: \"Arial\", sans-serif;\n    }\n\n\n    .nrdb-ui-group.acad .v-btn:hover {\n        background-color: #FFD700;\n        /* Amarelo dourado ao passar o mouse */\n        color: #003366;\n        /* Azul escuro no texto */\n    }\n</style>",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "widget:page",
-        "className": "",
-        "x": 310,
-        "y": 160,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5c0114fe0c35ef65",
+        "id": "f3222fa19b011bd8",
         "type": "ui-gauge",
         "z": "a7769f71b1a40557",
+        "g": "781519614d88436d",
         "name": "",
-        "group": "5936cb40dabd2561",
+        "group": "f47ab8cfde572038",
         "order": 1,
-        "width": 3,
-        "height": 3,
+        "width": "6",
+        "height": "5",
         "gtype": "gauge-tank",
         "gstyle": "needle",
-        "title": "Nível de água",
+        "title": "Caixa da água 1",
         "units": "Litros",
         "icon": "",
         "prefix": "",
@@ -850,7 +1101,7 @@
         "segments": [
             {
                 "from": "133",
-                "color": "#5cd65c"
+                "color": "#14b9ff"
             },
             {
                 "from": "266",
@@ -868,9 +1119,405 @@
         "sizeKeyThickness": 8,
         "styleRounded": true,
         "styleGlow": false,
+        "className": "Caix1",
+        "x": 1240,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "f98f0c2c1b5eb3ee",
+        "type": "ui-gauge",
+        "z": "a7769f71b1a40557",
+        "g": "781519614d88436d",
+        "name": "",
+        "group": "f47ab8cfde572038",
+        "order": 3,
+        "width": "6",
+        "height": "5",
+        "gtype": "gauge-tank",
+        "gstyle": "needle",
+        "title": "Caixa da água 2",
+        "units": "Litros",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "133",
+                "color": "#14b9ff"
+            },
+            {
+                "from": "266",
+                "color": "#ffc800"
+            },
+            {
+                "from": "400",
+                "color": "#ea5353"
+            }
+        ],
+        "min": "400",
+        "max": "0",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "Caix1",
+        "x": 1240,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "1804694aecc53005",
+        "type": "ui-gauge",
+        "z": "a7769f71b1a40557",
+        "g": "781519614d88436d",
+        "name": "",
+        "group": "b06208c1d86fd5ba",
+        "order": 1,
+        "width": "6",
+        "height": "5",
+        "gtype": "gauge-tank",
+        "gstyle": "needle",
+        "title": "Caixa da água 3",
+        "units": "Litros",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "133",
+                "color": "#14b9ff"
+            },
+            {
+                "from": "266",
+                "color": "#ffc800"
+            },
+            {
+                "from": "400",
+                "color": "#ea5353"
+            }
+        ],
+        "min": "400",
+        "max": "0",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "Caix1",
+        "x": 1240,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "847f6ae47a42b98d",
+        "type": "ui-gauge",
+        "z": "a7769f71b1a40557",
+        "g": "781519614d88436d",
+        "name": "",
+        "group": "b06208c1d86fd5ba",
+        "order": 2,
+        "width": "6",
+        "height": "5",
+        "gtype": "gauge-tank",
+        "gstyle": "needle",
+        "title": "Caixa da água 4",
+        "units": "Litros",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "133",
+                "color": "#14b9ff"
+            },
+            {
+                "from": "266",
+                "color": "#ffc800"
+            },
+            {
+                "from": "400",
+                "color": "#ea5353"
+            }
+        ],
+        "min": "400",
+        "max": "0",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "Caix1",
+        "x": 1240,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "f50203839b84a36b",
+        "type": "ui-template",
+        "z": "a7769f71b1a40557",
+        "g": "c3e3a1cce6c4f6d9",
+        "group": "",
+        "page": "fc11128e60fca395",
+        "ui": "",
+        "name": "Grupo Caixas 2",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "head": "",
+        "format": "<style>\n    .nrdb-ui-group.cx2 .v-card {\n        margin-top: 70px !important;\n        margin-left: 620px !important;\n\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "widget:page",
         "className": "",
-        "x": 620,
-        "y": 760,
+        "x": 980,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "29600fe590d433cc",
+        "type": "ui-template",
+        "z": "a7769f71b1a40557",
+        "g": "c3e3a1cce6c4f6d9",
+        "group": "",
+        "page": "fc11128e60fca395",
+        "ui": "",
+        "name": "Grupo Caixas 1",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "head": "",
+        "format": "<style>\n    .nrdb-ui-group.cx1 .v-card {\n        margin-top: 70px !important;\n        margin-left: 30px !important;\n\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "widget:page",
+        "className": "",
+        "x": 980,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9f7f66463bc0fbb5",
+        "type": "ui-button",
+        "z": "a7769f71b1a40557",
+        "g": "d94ecd6325fc9213",
+        "group": "bffff57babab2d4e",
+        "name": "",
+        "label": "",
+        "order": 1,
+        "width": "2",
+        "height": "2",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "lightbulb",
+        "iconPosition": "left",
+        "payload": "ON",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": false,
+        "enablePointerdown": true,
+        "pointerdownPayload": "ON",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": true,
+        "pointerupPayload": "OFF",
+        "pointerupPayloadType": "str",
+        "x": 410,
+        "y": 140,
+        "wires": [
+            [
+                "7b24ac7eb4b64f94"
+            ]
+        ]
+    },
+    {
+        "id": "9361b8c0a9754dbf",
+        "type": "mqtt in",
+        "z": "a7769f71b1a40557",
+        "g": "c2c10c8e1e8593d0",
+        "name": "Sensor Gás",
+        "topic": "sensor/potenciometro",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "6dea3424ac7469d4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 70,
+        "y": 560,
+        "wires": [
+            [
+                "66488bc171691eb6",
+                "fb48d6f33ab716d8",
+                "5f21b19c07f54297"
+            ]
+        ]
+    },
+    {
+        "id": "66488bc171691eb6",
+        "type": "debug",
+        "z": "a7769f71b1a40557",
+        "g": "c2c10c8e1e8593d0",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 300,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "2bd6331fd3dd5ffd",
+        "type": "ui-template",
+        "z": "a7769f71b1a40557",
+        "g": "c2c10c8e1e8593d0",
+        "group": "",
+        "page": "e8b5a577d2fd58b5",
+        "ui": "",
+        "name": "Salão de Festa",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "head": "",
+        "format": "<style>\n    \n.nrdb-ui-group.CasaMaquina {\ngrid-column: span 2 !important;  *Ocupa 2 colunas */\ngrid-row: span 1 !important; /* Ocupa 1 linha */\n}\n\n.nrdb-ui-group.SalaoFesta {\ngrid-column: span 1 !important; /* Ocupa 1 coluna */\ngrid-row: span 1 !important; /* Ocupa 1 linha */\n}\n\n.nrdb-ui-group.CasaMaquina,\n.nrdb-ui-group.SalaoFesta {\ngrid-column: span 2 !important; \ngrid-row: span 1 !important; \n}\n\n.nrdb-ui-group.salaoFesta {\n    background-color: transparent !important;\n}\n\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "widget:page",
+        "className": "",
+        "x": 360,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4b3af21429b954dc",
+        "type": "ui-template",
+        "z": "a7769f71b1a40557",
+        "g": "c2c10c8e1e8593d0",
+        "group": "",
+        "page": "e8b5a577d2fd58b5",
+        "ui": "",
+        "name": "Casa de máquinas",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<style>\n\n.nrdb-ui-group.salaoFesta .v-card {\n        background: transparent !important;\n        box-shadow: none !important; /* Remove a sombra, se houver */\n        margin-top: 200px !important;\n    }\n\n\n.nrdb-ui-group.CasaMaquina .v-card {\n    background: transparent !important;\n    box-shadow: none !important; /* Remove a sombra, se houver */\n    margin-left: 600px !important;\n    margin-top: 200px !important;\n\n}\n\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "widget:page",
+        "className": "",
+        "x": 350,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fb48d6f33ab716d8",
+        "type": "ui-gauge",
+        "z": "a7769f71b1a40557",
+        "g": "c2c10c8e1e8593d0",
+        "name": "",
+        "group": "6f153c26a5886006",
+        "order": 1,
+        "width": "6",
+        "height": "6",
+        "gtype": "gauge-34",
+        "gstyle": "needle",
+        "title": "Nível de gás",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "10",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 150,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "5f21b19c07f54297",
+        "type": "ui-gauge",
+        "z": "a7769f71b1a40557",
+        "g": "c2c10c8e1e8593d0",
+        "name": "",
+        "group": "419d2ecdbf31606b",
+        "order": 1,
+        "width": "6",
+        "height": "6",
+        "gtype": "gauge-34",
+        "gstyle": "needle",
+        "title": "Nível de gás",
+        "units": "units",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c"
+            },
+            {
+                "from": "4",
+                "color": "#ffc800"
+            },
+            {
+                "from": "7",
+                "color": "#ea5353"
+            }
+        ],
+        "min": 0,
+        "max": "10",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 230,
+        "y": 460,
         "wires": []
     }
 ]
