@@ -8,108 +8,6 @@
         "env": []
     },
     {
-        "id": "d94ecd6325fc9213",
-        "type": "group",
-        "z": "a7769f71b1a40557",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "7b24ac7eb4b64f94",
-            "12cb8b2c4921e971",
-            "5d46259fbfb20d69",
-            "9f7f66463bc0fbb5",
-            "fa5e14e94f4ec814",
-            "9a54c20867d775dc"
-        ],
-        "x": 14,
-        "y": 19,
-        "w": 572,
-        "h": 242
-    },
-    {
-        "id": "781519614d88436d",
-        "type": "group",
-        "z": "a7769f71b1a40557",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "8aa259957b0e7f3b",
-            "d02abd90871d1cf9",
-            "f3222fa19b011bd8",
-            "f98f0c2c1b5eb3ee",
-            "1804694aecc53005",
-            "847f6ae47a42b98d",
-            "c3e3a1cce6c4f6d9"
-        ],
-        "x": 728,
-        "y": 19,
-        "w": 498,
-        "h": 348
-    },
-    {
-        "id": "c2c10c8e1e8593d0",
-        "type": "group",
-        "z": "a7769f71b1a40557",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "9361b8c0a9754dbf",
-            "66488bc171691eb6",
-            "2bd6331fd3dd5ffd",
-            "4b3af21429b954dc",
-            "fb48d6f33ab716d8",
-            "5f21b19c07f54297"
-        ],
-        "x": 14,
-        "y": 279,
-        "w": 612,
-        "h": 282
-    },
-    {
-        "id": "c3e3a1cce6c4f6d9",
-        "type": "group",
-        "z": "a7769f71b1a40557",
-        "g": "781519614d88436d",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "f50203839b84a36b",
-            "29600fe590d433cc"
-        ],
-        "x": 754,
-        "y": 199,
-        "w": 212,
-        "h": 142
-    },
-    {
         "id": "42fb205586279285",
         "type": "ui-theme",
         "name": "Theme 7",
@@ -354,94 +252,6 @@
             "groupBorderRadius": "4px",
             "widgetGap": "12px"
         }
-    },
-    {
-        "id": "d78345db1d69c9a5",
-        "type": "ui-page",
-        "name": "Controle Iluminação",
-        "ui": "5751272d90bb3105",
-        "path": "",
-        "icon": "lightbulb ",
-        "layout": "flex",
-        "theme": "03ae808964d91e13",
-        "breakpoints": [
-            {
-                "name": "Default",
-                "px": "0",
-                "cols": "3"
-            },
-            {
-                "name": "Tablet",
-                "px": "576",
-                "cols": "6"
-            },
-            {
-                "name": "Small Desktop",
-                "px": "768",
-                "cols": "9"
-            },
-            {
-                "name": "Desktop",
-                "px": "1024",
-                "cols": "12"
-            }
-        ],
-        "order": 1,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "info": "<style>\r\n    .nrdb-ui-group.acad .v-card {\r\n        background-color: #e88113db !important;\r\n        /* Azul escuro USCS /\r\n        border-radius: 16px !important;\r\n        border: 2px solid #00509E;\r\n        / Borda azul intermediária /\r\n        color: #ffffff;\r\n        / Texto branco para contraste /\r\n        margin: 45px;\r\n        / Espaço ao redor do card /\r\n        padding: 15px;\r\n        / Mais espaço interno /\r\n        width: 300px;\r\n        / Mantém a largura /\r\n        height: 275px;\r\n        / Mantém a altura /\r\n        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);\r\n        / Sombra suave /\r\n        display: flex;\r\n        flex-direction: column;\r\n        align-items: center;\r\n        justify-content: center;\r\n    }\r\n\r\n    .nrdb-ui-group.acad .v-card-title {\r\n        font-size: 18px;\r\n        font-weight: bold;\r\n        color: #FFD700;\r\n        / Amarelo dourado para destaque /\r\n        text-transform: uppercase;\r\n        / Texto em caixa alta /\r\n        text-align: center;\r\n        margin-bottom: 5px;\r\n        / Espaço entre o título e os botões /\r\n        font-family: \"Arial\", sans-serif;\r\n    }\r\n\r\n\r\n    .nrdb-ui-group.acad .v-btn:hover {\r\n        background-color: #FFD700;\r\n        / Amarelo dourado ao passar o mouse /\r\n        color: #003366;\r\n        / Azul escuro no texto */\r\n    }\r\n</style>"
-    },
-    {
-        "id": "bffff57babab2d4e",
-        "type": "ui-group",
-        "name": "Academia",
-        "page": "d78345db1d69c9a5",
-        "width": "6",
-        "height": 1,
-        "order": 1,
-        "showTitle": true,
-        "className": "acad",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default",
-        "info": "<style>\r\n    .nrdb-ui-group.acad .v-card {\r\n        background-color: #e88113db !important;\r\n        /* Azul escuro USCS */\r\n        border-radius: 16px !important;\r\n        border: 2px solid #00509E;\r\n        /* Borda azul intermediária */\r\n        color: #ffffff;\r\n        /* Texto branco para contraste */\r\n        margin: 45px;\r\n        /* Espaço ao redor do card */\r\n        padding: 15px;\r\n        /* Mais espaço interno /\r\n        width: 300px;\r\n        / Mantém a largura /\r\n        height: 275px;\r\n        / Mantém a altura /\r\n        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);\r\n        / Sombra suave /\r\n        display: flex;\r\n        flex-direction: column;\r\n        align-items: center;\r\n        justify-content: center;\r\n    }\r\n\r\n    .nrdb-ui-group.acad .v-card-title {\r\n        font-size: 18px;\r\n        font-weight: bold;\r\n        color: #FFD700;\r\n        / Amarelo dourado para destaque /\r\n        text-transform: uppercase;\r\n        / Texto em caixa alta /\r\n        text-align: center;\r\n        margin-bottom: 5px;\r\n        / Espaço entre o título e os botões /\r\n        font-family: \"Arial\", sans-serif;\r\n    }\r\n\r\n\r\n    .nrdb-ui-group.acad .v-btn:hover {\r\n        background-color: #FFD700;\r\n        / Amarelo dourado ao passar o mouse /\r\n        color: #003366;\r\n        / Azul escuro no texto */\r\n    }\r\n</style>`"
-    },
-    {
-        "id": "e8b5a577d2fd58b5",
-        "type": "ui-page",
-        "name": "Vazamento de gás",
-        "ui": "5751272d90bb3105",
-        "path": "/page2",
-        "icon": "fire",
-        "layout": "flex",
-        "theme": "03ae808964d91e13",
-        "breakpoints": [
-            {
-                "name": "Default",
-                "px": "0",
-                "cols": "3"
-            },
-            {
-                "name": "Tablet",
-                "px": "576",
-                "cols": "6"
-            },
-            {
-                "name": "Small Desktop",
-                "px": "768",
-                "cols": "9"
-            },
-            {
-                "name": "Desktop",
-                "px": "1024",
-                "cols": "12"
-            }
-        ],
-        "order": 2,
-        "className": "",
-        "visible": "true",
-        "disabled": "false"
     },
     {
         "id": "2509275d52fb7e77",
@@ -837,688 +647,214 @@
         }
     },
     {
-        "id": "6f153c26a5886006",
-        "type": "ui-group",
-        "name": "Salão de festas",
-        "page": "e8b5a577d2fd58b5",
-        "width": 6,
-        "height": 1,
-        "order": 1,
-        "showTitle": true,
-        "className": "salaoFesta",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "419d2ecdbf31606b",
-        "type": "ui-group",
-        "name": "Casa de Maquinas",
-        "page": "e8b5a577d2fd58b5",
-        "width": 6,
-        "height": 1,
-        "order": 2,
-        "showTitle": true,
-        "className": "CasaMaquina",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "fc11128e60fca395",
-        "type": "ui-page",
-        "name": "Controle Caixas d'água",
-        "ui": "5751272d90bb3105",
-        "path": "/Cxaguas",
-        "icon": "water",
-        "layout": "flex",
-        "theme": "20b2c056620794d4",
-        "breakpoints": [
-            {
-                "name": "Default",
-                "px": "0",
-                "cols": "2"
-            },
-            {
-                "name": "Tablet",
-                "px": "576",
-                "cols": "2"
-            },
-            {
-                "name": "Small Desktop",
-                "px": "768",
-                "cols": "2"
-            },
-            {
-                "name": "Desktop",
-                "px": "600",
-                "cols": "2"
-            }
-        ],
-        "order": 3,
-        "className": "",
-        "visible": "true",
-        "disabled": "false"
-    },
-    {
-        "id": "f47ab8cfde572038",
-        "type": "ui-group",
-        "name": "Grupo Caixa 1",
-        "page": "fc11128e60fca395",
-        "width": 6,
-        "height": 1,
-        "order": 1,
-        "showTitle": false,
-        "className": "cx1",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "b06208c1d86fd5ba",
-        "type": "ui-group",
-        "name": "Grupo Caixa 2",
-        "page": "fc11128e60fca395",
-        "width": 6,
-        "height": 1,
-        "order": 2,
-        "showTitle": false,
-        "className": "cx2",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "12cb8b2c4921e971",
-        "type": "ui-template",
-        "z": "a7769f71b1a40557",
-        "g": "d94ecd6325fc9213",
-        "group": "",
-        "page": "",
-        "ui": "5751272d90bb3105",
+        "id": "ed882aaa23b29299",
+        "type": "tls-config",
         "name": "",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "head": "",
-        "format": ".v-main {\n    background-image: url(\"https://upload.wikimedia.org/wikipedia/commons/c/c9/Logo_uscs.png\");\n    background-position: center;\n    background-color: rgba(255, 255, 255, 0.3);\n    background-blend-mode: lighten;\n    background-size: 500px 400px;\n}\n\n\n.v-navigation-drawer {\n    background-color: #e88113db;\n    font-size: larger;\n}\n\n.v-card-title {\n    color: #100101;\n}\n\n\n.v-list-item-title {\n    color: #fdfafa !important;\n    font-weight: 500 !important;\n    font-size: 16px !important;\n}\n\n\n.v-app-bar.v-toolbar {\n    background: transparent;\n}\n\n \n.v-toolbar-title__placeholder {\n    color: #000000;\n}\n\n \n.v-theme--nrdb .v-icon--size-default {\n    color: #000000;\n}",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "site:style",
-        "className": "",
-        "x": 100,
-        "y": 60,
-        "wires": [
-            []
-        ]
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "isrgrootx1.pem",
+        "keyname": "",
+        "caname": "",
+        "servername": "",
+        "verifyservercert": true,
+        "alpnprotocol": ""
     },
     {
-        "id": "5d46259fbfb20d69",
-        "type": "ui-template",
-        "z": "a7769f71b1a40557",
-        "g": "d94ecd6325fc9213",
-        "group": "",
-        "page": "d78345db1d69c9a5",
-        "ui": "",
-        "name": "Grupo Academia",
-        "order": 1,
-        "width": "0",
-        "height": "0",
-        "head": "",
-        "format": "<style>\n    .nrdb-ui-group.acad {\n        grid-column: span 2 !important; /* Ajuste o número conforme o espaço que deseja ocupar */\n        grid-row: span 2 !important; /* Define a altura */\n    }\n\n    .nrdb-ui-group.acad .v-card {\n        width: 300px !important;  /* Mantém o ajuste correto dentro do grid */\n        height: 200px !important;\n    }\n\n      .nrdb-ui-group.acad .v-card {\n        background: transparent !important;\n        box-shadow: none !important; /* Remove a sombra, se houver */\n    }\n</style>",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "widget:page",
-        "className": "",
-        "x": 310,
-        "y": 60,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9a54c20867d775dc",
-        "type": "mqtt in",
-        "z": "a7769f71b1a40557",
-        "g": "d94ecd6325fc9213",
-        "name": "Entrada",
-        "topic": "teste/lampada_confirma",
-        "qos": "0",
-        "datatype": "auto-detect",
-        "broker": "2509275d52fb7e77",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 150,
-        "y": 140,
-        "wires": [
-            [
-                "fa5e14e94f4ec814",
-                "9f7f66463bc0fbb5"
-            ]
-        ]
-    },
-    {
-        "id": "8aa259957b0e7f3b",
-        "type": "mqtt in",
-        "z": "a7769f71b1a40557",
-        "g": "781519614d88436d",
+        "id": "1243f764e8e8d399",
+        "type": "mqtt-broker",
         "name": "",
-        "topic": "teste/agua",
-        "qos": "0",
-        "datatype": "auto-detect",
-        "broker": "2509275d52fb7e77",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 840,
-        "y": 60,
-        "wires": [
-            [
-                "d02abd90871d1cf9",
-                "f3222fa19b011bd8",
-                "f98f0c2c1b5eb3ee",
-                "1804694aecc53005",
-                "847f6ae47a42b98d"
-            ]
-        ]
-    },
-    {
-        "id": "7b24ac7eb4b64f94",
-        "type": "mqtt out",
-        "z": "a7769f71b1a40557",
-        "g": "d94ecd6325fc9213",
-        "name": "Lights",
-        "topic": "teste/lampada",
-        "qos": "",
-        "retain": "false",
-        "respTopic": "",
-        "contentType": "",
+        "broker": "",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
         "userProps": "",
-        "correl": "",
-        "expiry": "",
-        "broker": "6dea3424ac7469d4",
-        "x": 510,
-        "y": 140,
-        "wires": []
+        "sessionExpiry": ""
     },
     {
-        "id": "fa5e14e94f4ec814",
+        "id": "fe3c0826b006f2aa",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "Tcc011.mqttserver.eu",
+        "port": "8883",
+        "tls": "ed882aaa23b29299",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": "5",
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "broker_config",
+        "type": "mqtt-broker",
+        "name": "MQTT Tcc011",
+        "broker": "Tcc011.mqttserver.eu",
+        "port": "8883",
+        "tls": "true",
+        "clientid": "NodeRED_Client",
+        "autoConnect": true,
+        "usetls": true,
+        "compatmode": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "e8796a1869e179bc",
+        "type": "firebase-config",
+        "name": "My Database",
+        "authType": "privateKey",
+        "claims": {},
+        "createUser": false,
+        "status": {
+            "firestore": false,
+            "storage": false
+        },
+        "useClaims": false
+    },
+    {
+        "id": "mqtt_in",
+        "type": "mqtt in",
+        "z": "a7769f71b1a40557",
+        "name": "Receber Dados ESP32",
+        "topic": "/empresa/+/recurso/+/dados",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "fe3c0826b006f2aa",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 500,
+        "y": 340,
+        "wires": [
+            [
+                "json_parser"
+            ]
+        ]
+    },
+    {
+        "id": "json_parser",
+        "type": "json",
+        "z": "a7769f71b1a40557",
+        "name": "Parse JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": true,
+        "x": 750,
+        "y": 360,
+        "wires": [
+            [
+                "2c8a383e63a2b2b5"
+            ]
+        ]
+    },
+    {
+        "id": "debug_output",
         "type": "debug",
         "z": "a7769f71b1a40557",
-        "g": "d94ecd6325fc9213",
-        "name": "debug 4",
+        "name": "Ver dados",
         "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 400,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "d02abd90871d1cf9",
-        "type": "debug",
-        "z": "a7769f71b1a40557",
-        "g": "781519614d88436d",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
+        "complete": "true",
+        "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
         "x": 1040,
-        "y": 60,
+        "y": 540,
         "wires": []
     },
     {
-        "id": "f3222fa19b011bd8",
-        "type": "ui-gauge",
+        "id": "2c8a383e63a2b2b5",
+        "type": "function",
         "z": "a7769f71b1a40557",
-        "g": "781519614d88436d",
-        "name": "",
-        "group": "f47ab8cfde572038",
-        "order": 1,
-        "width": "6",
-        "height": "5",
-        "gtype": "gauge-tank",
-        "gstyle": "needle",
-        "title": "Caixa da água 1",
-        "units": "Litros",
-        "icon": "",
-        "prefix": "",
-        "suffix": "",
-        "segments": [
-            {
-                "from": "133",
-                "color": "#14b9ff"
-            },
-            {
-                "from": "266",
-                "color": "#ffc800"
-            },
-            {
-                "from": "350",
-                "color": "#ea5353"
-            }
-        ],
-        "min": "400",
-        "max": "0",
-        "sizeThickness": 16,
-        "sizeGap": 4,
-        "sizeKeyThickness": 8,
-        "styleRounded": true,
-        "styleGlow": false,
-        "className": "Caix1",
-        "x": 1120,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "f98f0c2c1b5eb3ee",
-        "type": "ui-gauge",
-        "z": "a7769f71b1a40557",
-        "g": "781519614d88436d",
-        "name": "",
-        "group": "f47ab8cfde572038",
-        "order": 2,
-        "width": "6",
-        "height": "5",
-        "gtype": "gauge-tank",
-        "gstyle": "needle",
-        "title": "Caixa da água 2",
-        "units": "Litros",
-        "icon": "",
-        "prefix": "",
-        "suffix": "",
-        "segments": [
-            {
-                "from": "133",
-                "color": "#14b9ff"
-            },
-            {
-                "from": "266",
-                "color": "#ffc800"
-            },
-            {
-                "from": "350",
-                "color": "#ea5353"
-            }
-        ],
-        "min": "400",
-        "max": "0",
-        "sizeThickness": 16,
-        "sizeGap": 4,
-        "sizeKeyThickness": 8,
-        "styleRounded": true,
-        "styleGlow": false,
-        "className": "Caix1",
-        "x": 1120,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "1804694aecc53005",
-        "type": "ui-gauge",
-        "z": "a7769f71b1a40557",
-        "g": "781519614d88436d",
-        "name": "",
-        "group": "b06208c1d86fd5ba",
-        "order": 1,
-        "width": "6",
-        "height": "5",
-        "gtype": "gauge-tank",
-        "gstyle": "needle",
-        "title": "Caixa da água 3",
-        "units": "Litros",
-        "icon": "",
-        "prefix": "",
-        "suffix": "",
-        "segments": [
-            {
-                "from": "133",
-                "color": "#14b9ff"
-            },
-            {
-                "from": "266",
-                "color": "#ffc800"
-            },
-            {
-                "from": "350",
-                "color": "#ea5353"
-            }
-        ],
-        "min": "400",
-        "max": "0",
-        "sizeThickness": 16,
-        "sizeGap": 4,
-        "sizeKeyThickness": 8,
-        "styleRounded": true,
-        "styleGlow": false,
-        "className": "Caix1",
-        "x": 1120,
-        "y": 260,
-        "wires": []
-    },
-    {
-        "id": "847f6ae47a42b98d",
-        "type": "ui-gauge",
-        "z": "a7769f71b1a40557",
-        "g": "781519614d88436d",
-        "name": "",
-        "group": "b06208c1d86fd5ba",
-        "order": 2,
-        "width": "6",
-        "height": "5",
-        "gtype": "gauge-tank",
-        "gstyle": "needle",
-        "title": "Caixa da água 4",
-        "units": "Litros",
-        "icon": "",
-        "prefix": "",
-        "suffix": "",
-        "segments": [
-            {
-                "from": "133",
-                "color": "#14b9ff"
-            },
-            {
-                "from": "266",
-                "color": "#ffc800"
-            },
-            {
-                "from": "400",
-                "color": "#ea5353"
-            }
-        ],
-        "min": "400",
-        "max": "0",
-        "sizeThickness": 16,
-        "sizeGap": 4,
-        "sizeKeyThickness": 8,
-        "styleRounded": true,
-        "styleGlow": false,
-        "className": "Caix1",
-        "x": 1120,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "f50203839b84a36b",
-        "type": "ui-template",
-        "z": "a7769f71b1a40557",
-        "g": "c3e3a1cce6c4f6d9",
-        "group": "",
-        "page": "fc11128e60fca395",
-        "ui": "",
-        "name": "Grupo Caixas 2",
-        "order": 1,
-        "width": "0",
-        "height": "0",
-        "head": "",
-        "format": "<style>\n    .nrdb-ui-group.cx2 .v-card {\n        margin-top: 70px !important;\n        margin-left: 620px !important;\n\n</style>",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "widget:page",
-        "className": "",
-        "x": 860,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "29600fe590d433cc",
-        "type": "ui-template",
-        "z": "a7769f71b1a40557",
-        "g": "c3e3a1cce6c4f6d9",
-        "group": "",
-        "page": "fc11128e60fca395",
-        "ui": "",
-        "name": "Grupo Caixas 1",
-        "order": 1,
-        "width": "0",
-        "height": "0",
-        "head": "",
-        "format": "<style>\n    .nrdb-ui-group.cx1 .v-card {\n        margin-top: 70px !important;\n        margin-left: 30px !important;\n\n</style>",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "widget:page",
-        "className": "",
-        "x": 860,
-        "y": 300,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9f7f66463bc0fbb5",
-        "type": "ui-button",
-        "z": "a7769f71b1a40557",
-        "g": "d94ecd6325fc9213",
-        "group": "bffff57babab2d4e",
-        "name": "",
-        "label": "",
-        "order": 1,
-        "width": "2",
-        "height": "2",
-        "emulateClick": false,
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "className": "",
-        "icon": "lightbulb",
-        "iconPosition": "left",
-        "payload": "ON",
-        "payloadType": "str",
-        "topic": "topic",
-        "topicType": "msg",
-        "buttonColor": "",
-        "textColor": "",
-        "iconColor": "",
-        "enableClick": false,
-        "enablePointerdown": true,
-        "pointerdownPayload": "ON",
-        "pointerdownPayloadType": "str",
-        "enablePointerup": true,
-        "pointerupPayload": "OFF",
-        "pointerupPayloadType": "str",
-        "x": 350,
-        "y": 140,
+        "name": "function 1",
+        "func": "// Recebendo as variáveis de payload enviado pelo ESP32\nlet empresa = msg.payload.empresa;  // 'empresa' é a chave que você usou no ESP32\nlet recurso = msg.payload.recurso;  // 'recurso' ao invés de 'dispositivo'\nlet tipo = msg.payload.tipo;        // 'tipo' do dispositivo\nlet valor = msg.payload.valor;      // 'valor' do sensor (distância, etc.)\nlet unidade = msg.payload.unidade;  // 'unidade' de medida (por exemplo, 'cm')\n\n// Gerar timestamp no formato Unix\nlet timestamp = Math.floor(Date.now() / 1000); // em segundos desde 1970\n\n// Criar novo payload com todos os dados esperados\nmsg.payload = {\n    empresa: empresa,\n    recurso: recurso,\n    tipo: tipo,\n    valor: valor,\n    unidade: unidade,\n    timestamp: timestamp\n};\n\n// Retornar a mensagem com o novo payload\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 440,
         "wires": [
             [
-                "7b24ac7eb4b64f94"
+                "debug_output",
+                "7f679a83d13af970"
             ]
         ]
     },
     {
-        "id": "9361b8c0a9754dbf",
-        "type": "mqtt in",
+        "id": "7f679a83d13af970",
+        "type": "firestore-out",
         "z": "a7769f71b1a40557",
-        "g": "c2c10c8e1e8593d0",
-        "name": "Sensor Gás",
-        "topic": "sensor/potenciometro",
-        "qos": "0",
-        "datatype": "auto-detect",
-        "broker": "6dea3424ac7469d4",
-        "nl": false,
-        "rap": true,
-        "rh": 0,
-        "inputs": 0,
-        "x": 110,
-        "y": 480,
-        "wires": [
-            [
-                "66488bc171691eb6",
-                "fb48d6f33ab716d8",
-                "5f21b19c07f54297"
-            ]
-        ]
-    },
-    {
-        "id": "66488bc171691eb6",
-        "type": "debug",
-        "z": "a7769f71b1a40557",
-        "g": "c2c10c8e1e8593d0",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 340,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "2bd6331fd3dd5ffd",
-        "type": "ui-template",
-        "z": "a7769f71b1a40557",
-        "g": "c2c10c8e1e8593d0",
-        "group": "",
-        "page": "e8b5a577d2fd58b5",
-        "ui": "",
-        "name": "Salão de Festa",
-        "order": 1,
-        "width": "0",
-        "height": "0",
-        "head": "",
-        "format": "<style>\n    \n.nrdb-ui-group.CasaMaquina {\ngrid-column: span 2 !important;  *Ocupa 2 colunas */\ngrid-row: span 1 !important; /* Ocupa 1 linha */\n}\n\n.nrdb-ui-group.SalaoFesta {\ngrid-column: span 1 !important; /* Ocupa 1 coluna */\ngrid-row: span 1 !important; /* Ocupa 1 linha */\n}\n\n.nrdb-ui-group.CasaMaquina,\n.nrdb-ui-group.SalaoFesta {\ngrid-column: span 2 !important; \ngrid-row: span 1 !important; \n}\n\n.nrdb-ui-group.salaoFesta {\n    background-color: transparent !important;\n}\n\n</style>",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "widget:page",
-        "className": "",
-        "x": 380,
-        "y": 460,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4b3af21429b954dc",
-        "type": "ui-template",
-        "z": "a7769f71b1a40557",
-        "g": "c2c10c8e1e8593d0",
-        "group": "",
-        "page": "e8b5a577d2fd58b5",
-        "ui": "",
-        "name": "Casa de máquinas",
-        "order": 0,
-        "width": 0,
-        "height": 0,
-        "head": "",
-        "format": "<style>\n\n.nrdb-ui-group.salaoFesta .v-card {\n        background: transparent !important;\n        box-shadow: none !important; /* Remove a sombra, se houver */\n        margin-top: 200px !important;\n    }\n\n\n.nrdb-ui-group.CasaMaquina .v-card {\n    background: transparent !important;\n    box-shadow: none !important; /* Remove a sombra, se houver */\n    margin-left: 600px !important;\n    margin-top: 200px !important;\n\n}\n\n</style>",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "widget:page",
-        "className": "",
-        "x": 510,
-        "y": 320,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "fb48d6f33ab716d8",
-        "type": "ui-gauge",
-        "z": "a7769f71b1a40557",
-        "g": "c2c10c8e1e8593d0",
-        "name": "",
-        "group": "6f153c26a5886006",
-        "order": 1,
-        "width": "6",
-        "height": "6",
-        "gtype": "gauge-34",
-        "gstyle": "needle",
-        "title": "Nível de gás",
-        "units": "units",
-        "icon": "",
-        "prefix": "",
-        "suffix": "",
-        "segments": [
-            {
-                "from": "0",
-                "color": "#5cd65c"
-            },
-            {
-                "from": "4",
-                "color": "#ffc800"
-            },
-            {
-                "from": "7",
-                "color": "#ea5353"
-            }
-        ],
-        "min": 0,
-        "max": "10",
-        "sizeThickness": 16,
-        "sizeGap": 4,
-        "sizeKeyThickness": 8,
-        "styleRounded": true,
-        "styleGlow": false,
-        "className": "",
-        "x": 190,
-        "y": 320,
-        "wires": []
-    },
-    {
-        "id": "5f21b19c07f54297",
-        "type": "ui-gauge",
-        "z": "a7769f71b1a40557",
-        "g": "c2c10c8e1e8593d0",
-        "name": "",
-        "group": "419d2ecdbf31606b",
-        "order": 1,
-        "width": "6",
-        "height": "6",
-        "gtype": "gauge-34",
-        "gstyle": "needle",
-        "title": "Nível de gás",
-        "units": "units",
-        "icon": "",
-        "prefix": "",
-        "suffix": "",
-        "segments": [
-            {
-                "from": "0",
-                "color": "#5cd65c"
-            },
-            {
-                "from": "4",
-                "color": "#ffc800"
-            },
-            {
-                "from": "7",
-                "color": "#ea5353"
-            }
-        ],
-        "min": 0,
-        "max": "10",
-        "sizeThickness": 16,
-        "sizeGap": 4,
-        "sizeKeyThickness": 8,
-        "styleRounded": true,
-        "styleGlow": false,
-        "className": "",
-        "x": 370,
-        "y": 400,
+        "name": "Mandar pro Banco",
+        "database": "e8796a1869e179bc",
+        "collection": "LEITURAS",
+        "collectionType": "str",
+        "document": "",
+        "documentType": "str",
+        "queryMethod": "set",
+        "queryOptions": {
+            "merge": false
+        },
+        "x": 1130,
+        "y": 420,
         "wires": []
     }
 ]

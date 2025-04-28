@@ -2,5 +2,22 @@
     "2509275d52fb7e77": {},
     "1a6b39bf9eb8a9d5": {},
     "f6d47f9146d39df1": {},
-    "6dea3424ac7469d4": {}
+    "6dea3424ac7469d4": {},
+    "fe3c0826b006f2aa": {
+        "user": "tccproject",
+        "password": "welcometest"
+    },
+    "ed882aaa23b29299": {
+        "certdata": "-----BEGIN CERTIFICATE-----\nMIIFazCCA1OgAwIBAgIRAIIQz7DSQONZRGPgu2OCiwAwDQYJKoZIhvcNAQELBQAw\nTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh\ncmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMTUwNjA0MTEwNDM4\nWhcNMzUwNjA0MTEwNDM4WjBPMQswCQYDVQQGEwJVUzEpMCcGA1UEChMgSW50ZXJu\nZXQgU2VjdXJpdHkgUmVzZWFyY2ggR3JvdXAxFTATBgNVBAMTDElTUkcgUm9vdCBY\nMTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAK3oJHP0FDfzm54rVygc\nh77ct984kIxuPOZXoHj3dcKi/vVqbvYATyjb3miGbESTtrFj/RQSa78f0uoxmyF+\n0TM8ukj13Xnfs7j/EvEhmkvBioZxaUpmZmyPfjxwv60pIgbz5MDmgK7iS4+3mX6U\nA5/TR5d8mUgjU+g4rk8Kb4Mu0UlXjIB0ttov0DiNewNwIRt18jA8+o+u3dpjq+sW\nT8KOEUt+zwvo/7V3LvSye0rgTBIlDHCNAymg4VMk7BPZ7hm/ELNKjD+Jo2FR3qyH\nB5T0Y3HsLuJvW5iB4YlcNHlsdu87kGJ55tukmi8mxdAQ4Q7e2RCOFvu396j3x+UC\nB5iPNgiV5+I3lg02dZ77DnKxHZu8A/lJBdiB3QW0KtZB6awBdpUKD9jf1b0SHzUv\nKBds0pjBqAlkd25HN7rOrFleaJ1/ctaJxQZBKT5ZPt0m9STJEadao0xAH0ahmbWn\nOlFuhjuefXKnEgV4We0+UXgVCwOPjdAvBbI+e0ocS3MFEvzG6uBQE3xDk3SzynTn\njh8BCNAw1FtxNrQHusEwMFxIt4I7mKZ9YIqioymCzLq9gwQbooMDQaHWBfEbwrbw\nqHyGO0aoSCqI3Haadr8faqU9GY/rOPNk3sgrDQoo//fb4hVC1CLQJ13hef4Y53CI\nrU7m2Ys6xt0nUW7/vGT1M0NPAgMBAAGjQjBAMA4GA1UdDwEB/wQEAwIBBjAPBgNV\nHRMBAf8EBTADAQH/MB0GA1UdDgQWBBR5tFnme7bl5AFzgAiIyBpY9umbbjANBgkq\nhkiG9w0BAQsFAAOCAgEAVR9YqbyyqFDQDLHYGmkgJykIrGF1XIpu+ILlaS/V9lZL\nubhzEFnTIZd+50xx+7LSYK05qAvqFyFWhfFQDlnrzuBZ6brJFe+GnY+EgPbk6ZGQ\n3BebYhtF8GaV0nxvwuo77x/Py9auJ/GpsMiu/X1+mvoiBOv/2X/qkSsisRcOj/KK\nNFtY2PwByVS5uCbMiogziUwthDyC3+6WVwW6LLv3xLfHTjuCvjHIInNzktHCgKQ5\nORAzI4JMPJ+GslWYHb4phowim57iaztXOoJwTdwJx4nLCgdNbOhdjsnvzqvHu7Ur\nTkXWStAmzOVyyghqpZXjFaH3pO3JLF+l+/+sKAIuvtd7u+Nxe5AW0wdeRlN8NwdC\njNPElpzVmbUq4JUagEiuTDkHzsxHpFKVK7q4+63SM1N95R1NbdWhscdCb+ZAJzVc\noyi3B43njTOQ5yOf+1CceWxG1bQVs5ZufpsMljq4Ui0/1lvh+wjChP4kqKOJ2qxq\n4RgqsahDYVvTH9w7jXbyLeiNdd8XM2w9U/t7y0Ff/9yi0GE44Za4rF2LN9d11TPA\nmRGunUHBcnWEvgJBQl9nJEiU0Zsnvgc/ubhPgXRR4Xq37Z0j4r7g1SgEEzwxA57d\nemyPxgcYxn/eR44/KJ4EBs+lVDR3veyJm+kXQ99b21/+jh5Xos1AnX5iItreGCc=\n-----END CERTIFICATE-----\n"
+    },
+    "1243f764e8e8d399": {},
+    "broker_config": {
+        "user": "tccproject",
+        "password": "welcometest"
+    },
+    "e8796a1869e179bc": {
+        "clientEmail": "firebase-adminsdk-fbsvc@projetotcc-d89fc.iam.gserviceaccount.com",
+        "privateKey": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDgMTU+VVWG8aMH\nxpQm8IofxcdR2UYl5X6n08PeUkFO4Fy9rR84JKTgS8O9rCx4KYW2Zi34Ydmz+JYf\nDsf5OjfnEVT3L0X9Us8adikTaDWew0jYwEKNORtxRSk5wckfJ2b3LqbmHzs680Fz\nLfXTjzHzGDoHrzhi1zWjQtBHQn85597bQv9kWP5jO6SaMdiyHiJ6apzVzz+SFLGy\nHl5QLCOvX4PWhQQVYFFWfqCrYNwivXbQC9NwAzsZHbvM9IfapHJK+GG/DmDJ3Lrw\nwn4TF93UtHKX/lFHOkLHF3Rn4xnVE0gLToA6bITsEGm81GKseQbUvqa0C5P4i9fH\n4QruNP7NAgMBAAECggEANO/RmWgXY597Zirg0SgDiViPRbeW3Xxo0XKKoZyNELWg\nGGaARGa8qryhGdCFiJMPYGAUsz1RpTIJqog4NlRlnlFEnYBDV7tdrSsg7FTzMkt8\n0Ddnj4agQPj6cMmd9pX8dVnF7XkK6JLHTc3Yqa16dyLtkuJwH0CfSO9OFEFynqZ9\nHo9HHg0yDBDQYQyPR4w6XO3jhS1eIbZhsF5rvaMDdnb4DkIsz/4CtJ+bemjzez9V\nZxDYki+QdjhymWxCFw9vIHi92mKhSjDS+aETmQlyGlQWniOXJ8rOtyd7nibHJqGY\n/CeUZsmxVJQ7mqtoIbLx/fdjPYG8JYrTgXmAMpu0yQKBgQDythkeKav5Zzv8zmOE\nO7MOKh7Kxl0mFqCuih3QexsZu4LLfjCEZuxAkZssbIBrUftjAmlAbI5p0FsWHcUc\niC0h6P+5vYIl0Zzd4ClNJEBweaPbEZ1P+HZprOK380QelMQ8oXs/jYG99HAO9e/S\nS/Y+MhBfRQ2JnslMnCrk3uKruQKBgQDsd4qjKIPASf9XkIADgdqCyBa1t4EqSNfy\nUczyMrzO4slmzfjsYh04Jt0kJupNWiKIjsV5SMtdRFyDYmcj5oBcJojB9cT2QcLJ\nbuBlplYsfWrgaxEmo5pJnulKhFrvTOK7IkiZm+4QLaahMbP54gNQ73Nvn2GaN5Db\nD4Fl8Xq9tQKBgGN/Btj4mElLaqn+KYmht4tM9QaHPtRIXmJuuD4o2Tk5RysIdfcx\nAhSOHCCf8h0MpJM3/9GrLs5t3Yk5dv51TJskGwEXkOzT+wxxwjyfadMx6lv54pVP\n86rqdp6WGQy4S6HXSOEKr28hb3aSl1eMUEu61j9X3W7XKwo+0s60GBPxAoGBAKZ/\ncVV6lHITaD/+lbRifTnyqtLeV4svaSXM5RJwGTNOyeKiCrBeURaVfsYSxI0cdw5S\nAMdqMw8DsGQuKFNF3IGF/GsdosaF/SIZ+NR571k6IcPMf3IGZf+KbdczJFg0ebyr\n4hSOj2xCyH3dYk0DD7SwNUaWIYIVt+AWpdTi17q1AoGALk/LLhsTDAr+g22k/Rja\nNdVGMmxQPJv3vrTea1soxERTgaYZuMt52sKn2mgK9FdPFQ8Af4qCydktmDS0OrLp\nJYoUvoIKG8PWLUrjdOxZZOIbkuBSMFQh1JZ+RCDfz9izl0co3p66Fmju18RiXbA+\nHdMG8fNI9XKfMH4hZrVHUgI=\n-----END PRIVATE KEY-----",
+        "projectId": "projetotcc-d89fc"
+    }
 }
