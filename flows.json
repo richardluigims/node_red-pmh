@@ -797,7 +797,8 @@
         "y": 360,
         "wires": [
             [
-                "2c8a383e63a2b2b5"
+                "2c8a383e63a2b2b5",
+                "575867e1c6243547"
             ]
         ]
     },
@@ -814,8 +815,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1040,
-        "y": 540,
+        "x": 1080,
+        "y": 240,
         "wires": []
     },
     {
@@ -823,15 +824,15 @@
         "type": "function",
         "z": "a7769f71b1a40557",
         "name": "function 1",
-        "func": "// Recebendo as variáveis de payload enviado pelo ESP32\nlet empresa = msg.payload.empresa;  // 'empresa' é a chave que você usou no ESP32\nlet recurso = msg.payload.recurso;  // 'recurso' ao invés de 'dispositivo'\nlet tipo = msg.payload.tipo;        // 'tipo' do dispositivo\nlet valor = msg.payload.valor;      // 'valor' do sensor (distância, etc.)\nlet unidade = msg.payload.unidade;  // 'unidade' de medida (por exemplo, 'cm')\n\n// Gerar timestamp no formato Unix\nlet timestamp = Math.floor(Date.now() / 1000); // em segundos desde 1970\n\n// Criar novo payload com todos os dados esperados\nmsg.payload = {\n    empresa: empresa,\n    recurso: recurso,\n    tipo: tipo,\n    valor: valor,\n    unidade: unidade,\n    timestamp: timestamp\n};\n\n// Retornar a mensagem com o novo payload\nreturn msg;",
+        "func": "// Extrair variáveis do payload recebido pelo ESP32\nlet idEmpresa = msg.payload.idEmpresa;\nlet idRecurso = msg.payload.idRecurso;\nlet idAmbiente = msg.payload.idAmbiente;\nlet valor = msg.payload.valor;\nlet timestamp = msg.payload.timestamp;  // Já vem do ESP32\n\n// Criar novo payload com os dados esperados\nmsg.payload = {\n    idEmpresa: idEmpresa,\n    idRecurso: idRecurso,\n    idAmbiente: idAmbiente,\n    valor: valor,\n    timestamp: timestamp\n};\n\n// Retornar a mensagem com novo formato\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 880,
-        "y": 440,
+        "x": 920,
+        "y": 340,
         "wires": [
             [
                 "debug_output",
@@ -853,8 +854,46 @@
         "queryOptions": {
             "merge": false
         },
-        "x": 1130,
-        "y": 420,
+        "x": 1110,
+        "y": 340,
         "wires": []
+    },
+    {
+        "id": "99f216251263518e",
+        "type": "firestore-out",
+        "z": "a7769f71b1a40557",
+        "name": "Mandar pro Banco",
+        "database": "e8796a1869e179bc",
+        "collection": "msg.collection",
+        "collectionType": "msg",
+        "document": "msg.doc",
+        "documentType": "msg",
+        "queryMethod": "update",
+        "queryOptions": {
+            "merge": false
+        },
+        "x": 1070,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "575867e1c6243547",
+        "type": "function",
+        "z": "a7769f71b1a40557",
+        "name": "function 2",
+        "func": "// Captura os dados do payload do ESP32\nlet idRecurso = msg.payload.idRecurso;\nlet valor = msg.payload.valor;\n\n// Define a collection Firestore\nmsg.collection = \"RECURSOS\";       // Nome da coleção fixa\nmsg.doc = idRecurso;               // O ID do recurso enviado pelo ESP32\nmsg.operation = \"update\";          // Atualiza somente os campos informados\n\n// Define o campo a ser atualizado\nmsg.payload = {\n    estadoAtual: valor\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 420,
+        "wires": [
+            [
+                "99f216251263518e"
+            ]
+        ]
     }
 ]
