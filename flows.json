@@ -766,6 +766,15 @@
         "useClaims": false
     },
     {
+        "id": "4e5b1292ea98094e",
+        "type": "whatsappLink",
+        "cName": "whatsapp-web",
+        "name": "Web",
+        "clientType": "waWebClient",
+        "onlineStatus": true,
+        "loopTime": 5
+    },
+    {
         "id": "mqtt_in",
         "type": "mqtt in",
         "z": "a7769f71b1a40557",
@@ -895,5 +904,197 @@
                 "99f216251263518e"
             ]
         ]
+    },
+    {
+        "id": "595e1c843937b5e3",
+        "type": "mqtt out",
+        "z": "a7769f71b1a40557",
+        "name": "",
+        "topic": "/empresa/empresa123/recurso/Recurso1/led",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "fe3c0826b006f2aa",
+        "x": 490,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "0f1bef427a102a8a",
+        "type": "inject",
+        "z": "a7769f71b1a40557",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "ligar",
+        "payloadType": "str",
+        "x": 110,
+        "y": 140,
+        "wires": [
+            [
+                "595e1c843937b5e3"
+            ]
+        ]
+    },
+    {
+        "id": "a1d109a9b89d0c56",
+        "type": "inject",
+        "z": "a7769f71b1a40557",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "desligar",
+        "payloadType": "str",
+        "x": 110,
+        "y": 200,
+        "wires": [
+            [
+                "595e1c843937b5e3"
+            ]
+        ]
+    },
+    {
+        "id": "adf7a879b65ffb8b",
+        "type": "admin",
+        "z": "a7769f71b1a40557",
+        "name": "WA Admin",
+        "whatsappLink": "4e5b1292ea98094e",
+        "x": 550,
+        "y": 640,
+        "wires": [
+            [
+                "bb922caa7ee0dc1e"
+            ]
+        ]
+    },
+    {
+        "id": "bb922caa7ee0dc1e",
+        "type": "debug",
+        "z": "a7769f71b1a40557",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "db44c337b3cc1473",
+        "type": "firestore-get",
+        "z": "a7769f71b1a40557",
+        "name": "",
+        "database": "e8796a1869e179bc",
+        "collection": "RECURSOS",
+        "collectionType": "str",
+        "collectionGroup": "",
+        "collectionGroupType": "str",
+        "constraints": {},
+        "document": "",
+        "documentType": "str",
+        "passThrough": false,
+        "x": 1330,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "98a41393172d2936",
+        "type": "inject",
+        "z": "a7769f71b1a40557",
+        "name": "Coletar Dados",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "20",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1080,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2868096b1e3f6ca9",
+        "type": "function",
+        "z": "a7769f71b1a40557",
+        "name": "function 4",
+        "func": "let recursos = msg.payload.docs;\n\nfor (let nome in recursos) {\n    let doc = recursos[nome];\n\n    if (doc.estadoAtual < doc.valorMin && doc.numCliente) {\n        msg.toNumber = doc.numCliente;\n        msg.payload = \"A caixa d'água está com o valor abaixo do mínimo estimado.\";\n        return msg; // Envia só a primeira mensagem que atender a condição\n    }\n}\n\nreturn null; // Se nenhum recurso violar a condição\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1480,
+        "y": 1020,
+        "wires": [
+            [
+                "228ca659d1bd9aa3"
+            ]
+        ]
+    },
+    {
+        "id": "228ca659d1bd9aa3",
+        "type": "debug",
+        "z": "a7769f71b1a40557",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1660,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "011590573b218379",
+        "type": "chats-out",
+        "z": "a7769f71b1a40557",
+        "name": "Chats Out",
+        "whatsappLink": "4e5b1292ea98094e",
+        "number": "",
+        "x": 1680,
+        "y": 940,
+        "wires": []
     }
 ]
