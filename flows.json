@@ -775,6 +775,19 @@
         "loopTime": 5
     },
     {
+        "id": "55398ee3f9d4b722",
+        "type": "firebase-config",
+        "name": "Database Richard",
+        "authType": "privateKey",
+        "claims": {},
+        "createUser": false,
+        "status": {
+            "firestore": false,
+            "storage": false
+        },
+        "useClaims": false
+    },
+    {
         "id": "mqtt_in",
         "type": "mqtt in",
         "z": "a7769f71b1a40557",
@@ -786,7 +799,7 @@
         "nl": false,
         "rap": false,
         "inputs": 0,
-        "x": 500,
+        "x": 660,
         "y": 340,
         "wires": [
             [
@@ -802,7 +815,7 @@
         "property": "payload",
         "action": "",
         "pretty": true,
-        "x": 750,
+        "x": 910,
         "y": 360,
         "wires": [
             [
@@ -810,23 +823,6 @@
                 "575867e1c6243547"
             ]
         ]
-    },
-    {
-        "id": "debug_output",
-        "type": "debug",
-        "z": "a7769f71b1a40557",
-        "name": "Ver dados",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1080,
-        "y": 240,
-        "wires": []
     },
     {
         "id": "2c8a383e63a2b2b5",
@@ -840,11 +836,10 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 920,
+        "x": 1120,
         "y": 340,
         "wires": [
             [
-                "debug_output",
                 "7f679a83d13af970"
             ]
         ]
@@ -863,7 +858,7 @@
         "queryOptions": {
             "merge": false
         },
-        "x": 1110,
+        "x": 1330,
         "y": 340,
         "wires": []
     },
@@ -881,8 +876,8 @@
         "queryOptions": {
             "merge": false
         },
-        "x": 1070,
-        "y": 500,
+        "x": 1330,
+        "y": 400,
         "wires": []
     },
     {
@@ -897,8 +892,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 900,
-        "y": 420,
+        "x": 1120,
+        "y": 400,
         "wires": [
             [
                 "99f216251263518e"
@@ -979,12 +974,10 @@
         "z": "a7769f71b1a40557",
         "name": "WA Admin",
         "whatsappLink": "4e5b1292ea98094e",
-        "x": 550,
+        "x": 630,
         "y": 640,
         "wires": [
-            [
-                "bb922caa7ee0dc1e"
-            ]
+            []
         ]
     },
     {
@@ -1008,65 +1001,20 @@
         "type": "firestore-get",
         "z": "a7769f71b1a40557",
         "name": "",
-        "database": "e8796a1869e179bc",
-        "collection": "RECURSOS",
-        "collectionType": "str",
+        "database": "55398ee3f9d4b722",
+        "collection": "msg.collection",
+        "collectionType": "msg",
         "collectionGroup": "",
         "collectionGroupType": "str",
         "constraints": {},
-        "document": "",
-        "documentType": "str",
+        "document": "msg.doc",
+        "documentType": "msg",
         "passThrough": false,
-        "x": 1330,
-        "y": 940,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "98a41393172d2936",
-        "type": "inject",
-        "z": "a7769f71b1a40557",
-        "name": "Coletar Dados",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "20",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 1080,
-        "y": 940,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "2868096b1e3f6ca9",
-        "type": "function",
-        "z": "a7769f71b1a40557",
-        "name": "function 4",
-        "func": "let recursos = msg.payload.docs;\n\nfor (let nome in recursos) {\n    let doc = recursos[nome];\n\n    if (doc.estadoAtual < doc.valorMin && doc.numCliente) {\n        msg.toNumber = doc.numCliente;\n        msg.payload = \"A caixa d'água está com o valor abaixo do mínimo estimado.\";\n        return msg; // Envia só a primeira mensagem que atender a condição\n    }\n}\n\nreturn null; // Se nenhum recurso violar a condição\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1480,
-        "y": 1020,
+        "x": 1230,
+        "y": 980,
         "wires": [
             [
-                "228ca659d1bd9aa3"
+                "db3227f624b4bb6b"
             ]
         ]
     },
@@ -1079,11 +1027,12 @@
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "false",
+        "complete": "payload",
+        "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1660,
-        "y": 1060,
+        "x": 1560,
+        "y": 1140,
         "wires": []
     },
     {
@@ -1093,8 +1042,85 @@
         "name": "Chats Out",
         "whatsappLink": "4e5b1292ea98094e",
         "number": "",
-        "x": 1680,
+        "x": 1560,
         "y": 940,
         "wires": []
+    },
+    {
+        "id": "84944b4aa1176897",
+        "type": "mqtt in",
+        "z": "a7769f71b1a40557",
+        "name": "Receber Dados ESP32",
+        "topic": "/empresa/+/recurso/+/consulta",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "fe3c0826b006f2aa",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 640,
+        "y": 820,
+        "wires": [
+            [
+                "136fa75b87817ab4"
+            ]
+        ]
+    },
+    {
+        "id": "136fa75b87817ab4",
+        "type": "json",
+        "z": "a7769f71b1a40557",
+        "name": "Parse JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": true,
+        "x": 890,
+        "y": 860,
+        "wires": [
+            [
+                "dffbe162aa77d602"
+            ]
+        ]
+    },
+    {
+        "id": "dffbe162aa77d602",
+        "type": "function",
+        "z": "a7769f71b1a40557",
+        "name": "function 3",
+        "func": "// Captura os dados do payload do ESP32\nlet idRecurso = msg.payload.idRecurso;\nlet valor = msg.payload.valor;\n\n// Define a collection Firestore\nmsg.collection = \"RECURSOS\";       // Nome da coleção fixa\nmsg.doc = idRecurso;               // O ID do recurso enviado pelo ESP32\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 920,
+        "wires": [
+            [
+                "db44c337b3cc1473"
+            ]
+        ]
+    },
+    {
+        "id": "db3227f624b4bb6b",
+        "type": "function",
+        "z": "a7769f71b1a40557",
+        "name": "function 5",
+        "func": "let doc = msg.payload;  // O nó do Firestore retorna um único documento diretamente\n\nmsg.toNumber = doc.numCliente;\n\nif (doc.codTipoRecurso === 0) {\n    msg.payload = \"A caixa d'água em \" + doc.nomeAmbiente + \" está abaixo do nível, favor verificar.\";\n} else if (doc.codTipoRecurso === 1) {\n    msg.payload = \"O sensor de gás detectou um vazamento de gás em \" + doc.nomeAmbiente + \".\";\n} else {\n    msg.payload = \"Alerta no recurso localizado em \" + doc.nomeAmbiente + \".\";\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1400,
+        "y": 1040,
+        "wires": [
+            [
+                "228ca659d1bd9aa3",
+                "011590573b218379"
+            ]
+        ]
     }
 ]
